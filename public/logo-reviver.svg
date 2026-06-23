@@ -1,1 +1,43 @@
-{"data":"PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMTgwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkNvbXVuaWRhZGUgUmV2aXZlciBlbSBDcmlzdG8iPgogIDwhLS0gw41jb25lIDE6IG5vdGEgbXVzaWNhbCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDYsOCkiPgogICAgPHJlY3Qgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTIiIGZpbGw9IiNlNjM2MmUiIHN0cm9rZT0iIzdhMTgxMyIgc3Ryb2tlLXdpZHRoPSIxLjUiIC8+CiAgICA8ZyBmaWxsPSIjZmZmZmZmIj4KICAgICAgPHJlY3QgeD0iMzMiIHk9IjEyIiB3aWR0aD0iNCIgaGVpZ2h0PSIyNiIgcng9IjEiIC8+CiAgICAgIDxyZWN0IHg9IjIxIiB5PSIxNiIgd2lkdGg9IjQiIGhlaWdodD0iMjYiIHJ4PSIxIiAvPgogICAgICA8cGF0aCBkPSJNMjEgMTYgTDM3IDEyIEwzNyAxOCBMMjEgMjIgWiIgLz4KICAgICAgPGVsbGlwc2UgY3g9IjE5IiBjeT0iNDAiIHJ4PSI2IiByeT0iNC41IiAvPgogICAgICA8ZWxsaXBzZSBjeD0iMzEiIGN5PSIzNiIgcng9IjYiIHJ5PSI0LjUiIC8+CiAgICA8L2c+CiAgPC9nPgoKICA8IS0tIMONY29uZSAyOiBjcnV6IC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE3Miw4KSI+CiAgICA8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIHJ4PSIxMiIgZmlsbD0iI2JmZTZmNyIgc3Ryb2tlPSIjMWExYTFhIiBzdHJva2Utd2lkdGg9IjIiIC8+CiAgICA8ZyBmaWxsPSIjZjZjOTQ1IiBzdHJva2U9IiMxYTFhMWEiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICAgPHJlY3QgeD0iMjQiIHk9IjkiIHdpZHRoPSI4IiBoZWlnaHQ9IjM4IiByeD0iMiIgLz4KICAgICAgPHJlY3QgeD0iMTMiIHk9IjIwIiB3aWR0aD0iMzAiIGhlaWdodD0iOCIgcng9IjIiIC8+CiAgICA8L2c+CiAgPC9nPgoKICA8IS0tIMONY29uZSAzOiBwZWl4ZSAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMzgsOCkiPgogICAgPHJlY3Qgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTIiIGZpbGw9IiNmZGY4ZWUiIHN0cm9rZT0iIzFhMWExYSIgc3Ryb2tlLXdpZHRoPSIyIiAvPgogICAgPGcgZmlsbD0iIzFhMWExYSI+CiAgICAgIDxwYXRoIGQ9Ik0xMCwyOCBDMTAsMTYgMjIsMTQgMzAsMTQgQzM2LDE0IDM4LDIyIDM4LDI4IEMzOCwzNCAzNiw0MiAzMCw0MiBDMjIsNDIgMTAsNDAgMTAsMjggWiIgLz4KICAgICAgPHBhdGggZD0iTTM3LDI4IEw0OSwxNyBMNDksMzkgWiIgLz4KICAgIDwvZz4KICAgIDxjaXJjbGUgY3g9IjE2IiBjeT0iMjQiIHI9IjEuOCIgZmlsbD0iI2ZkZjhlZSIgLz4KICA8L2c+CgogIDwhLS0gV29yZG1hcmsgLS0+CiAgPHRleHQgeD0iMjAwIiB5PSIxMjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiCiAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLCBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIgogICAgICAgIGZvbnQtd2VpZ2h0PSI5MDAiIGZvbnQtc2l6ZT0iNDYiIGxldHRlci1zcGFjaW5nPSItMC41IgogICAgICAgIGZpbGw9IiMxNTE2MWEiPkNvbXVuaWRhZGU8L3RleHQ+CgogIDx0ZXh0IHg9IjIwNCIgeT0iMTU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB0cmFuc2Zvcm09InJvdGF0ZSgtMyAyMDQgMTUwKSIKICAgICAgICBmb250LWZhbWlseT0iU2Vnb2UgU2NyaXB0LCBCcnVzaCBTY3JpcHQgTVQsIGN1cnNpdmUiCiAgICAgICAgZm9udC1zdHlsZT0iaXRhbGljIiBmb250LXNpemU9IjI3IgogICAgICAgIGZpbGw9IiMxNTE2MWEiPlJldml2ZXIgZW0gQ3Jpc3RvPC90ZXh0Pgo8L3N2Zz4K"}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" role="img" aria-label="Comunidade Reviver em Cristo">
+  <!-- Ícone 1: nota musical -->
+  <g transform="translate(106,8)">
+    <rect width="56" height="56" rx="12" fill="#e6362e" stroke="#7a1813" stroke-width="1.5" />
+    <g fill="#ffffff">
+      <rect x="33" y="12" width="4" height="26" rx="1" />
+      <rect x="21" y="16" width="4" height="26" rx="1" />
+      <path d="M21 16 L37 12 L37 18 L21 22 Z" />
+      <ellipse cx="19" cy="40" rx="6" ry="4.5" />
+      <ellipse cx="31" cy="36" rx="6" ry="4.5" />
+    </g>
+  </g>
+
+  <!-- Ícone 2: cruz -->
+  <g transform="translate(172,8)">
+    <rect width="56" height="56" rx="12" fill="#bfe6f7" stroke="#1a1a1a" stroke-width="2" />
+    <g fill="#f6c945" stroke="#1a1a1a" stroke-width="1.5" stroke-linejoin="round">
+      <rect x="24" y="9" width="8" height="38" rx="2" />
+      <rect x="13" y="20" width="30" height="8" rx="2" />
+    </g>
+  </g>
+
+  <!-- Ícone 3: peixe -->
+  <g transform="translate(238,8)">
+    <rect width="56" height="56" rx="12" fill="#fdf8ee" stroke="#1a1a1a" stroke-width="2" />
+    <g fill="#1a1a1a">
+      <path d="M10,28 C10,16 22,14 30,14 C36,14 38,22 38,28 C38,34 36,42 30,42 C22,42 10,40 10,28 Z" />
+      <path d="M37,28 L49,17 L49,39 Z" />
+    </g>
+    <circle cx="16" cy="24" r="1.8" fill="#fdf8ee" />
+  </g>
+
+  <!-- Wordmark -->
+  <text x="200" y="122" text-anchor="middle"
+        font-family="Arial Black, Arial, Helvetica, sans-serif"
+        font-weight="900" font-size="46" letter-spacing="-0.5"
+        fill="#15161a">Comunidade</text>
+
+  <text x="204" y="158" text-anchor="middle" transform="rotate(-3 204 150)"
+        font-family="Segoe Script, Brush Script MT, cursive"
+        font-style="italic" font-size="27"
+        fill="#15161a">Reviver em Cristo</text>
+</svg>
