@@ -1,1 +1,23 @@
-{"data":"aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJwoKY29uc3QgdXJsID0gaW1wb3J0Lm1ldGEuZW52LlZJVEVfU1VQQUJBU0VfVVJMCmNvbnN0IGFub25LZXkgPSBpbXBvcnQubWV0YS5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWQoKaWYgKCF1cmwgfHwgIWFub25LZXkpIHsKICAvLyBGYWxoYSBhbHRvIGUgY2Vkbzogc2VtIGVzc2FzIHZhcmnDoXZlaXMgbmFkYSBuYSBhcGxpY2HDp8OjbyBmdW5jaW9uYSwKICAvLyBtZWxob3IgdW0gZXJybyBjbGFybyBubyBjb25zb2xlIGRvIHF1ZSBlcnJvcyBjb25mdXNvcyBkZSBmZXRjaC4KICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgbm8tY29uc29sZQogIGNvbnNvbGUuZXJyb3IoCiAgICAnVmFyacOhdmVpcyBWSVRFX1NVUEFCQVNFX1VSTCAvIFZJVEVfU1VQQUJBU0VfQU5PTl9LRVkgbsOjbyBjb25maWd1cmFkYXMuICcgKwogICAgICAnQ29waWUgLmVudi5leGFtcGxlIHBhcmEgLmVudiBlIHByZWVuY2hhIGNvbSBvcyBkYWRvcyBkbyBzZXUgcHJvamV0byBTdXBhYmFzZS4nCiAgKQp9CgpleHBvcnQgY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQodXJsLCBhbm9uS2V5LCB7CiAgYXV0aDogewogICAgcGVyc2lzdFNlc3Npb246IHRydWUsCiAgICBhdXRvUmVmcmVzaFRva2VuOiB0cnVlLAogIH0sCn0pCgpleHBvcnQgY29uc3QgU1RPUkFHRV9CVUNLRVQgPSAncmVsYXRvcmlvcycK"}
+import { createClient } from '@supabase/supabase-js'
+
+const url = import.meta.env.VITE_SUPABASE_URL
+const anonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
+
+if (!url || !anonKey) {
+  // Falha alto e cedo: sem essas variáveis nada na aplicação funciona,
+  // melhor um erro claro no console do que erros confusos de fetch.
+  // eslint-disable-next-line no-console
+  console.error(
+    'Variáveis VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY não configuradas. ' +
+      'Copie .env.example para .env e preencha com os dados do seu projeto Supabase.'
+  )
+}
+
+export const supabase = createClient(url, anonKey, {
+  auth: {
+    persistSession: true,
+    autoRefreshToken: true,
+  },
+})
+
+export const STORAGE_BUCKET = 'relatorios'
