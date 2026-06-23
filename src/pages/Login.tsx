@@ -1,1 +1,81 @@
-{"data":"aW1wb3J0IHsgdXNlU3RhdGUsIHR5cGUgRm9ybUV2ZW50IH0gZnJvbSAncmVhY3QnCmltcG9ydCB7IE5hdmlnYXRlIH0gZnJvbSAncmVhY3Qtcm91dGVyLWRvbScKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gJy4uL2NvbnRleHQvQXV0aENvbnRleHQnCgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBMb2dpbigpIHsKICBjb25zdCB7IHNlc3Npb24sIGNhcnJlZ2FuZG8sIGVudHJhciB9ID0gdXNlQXV0aCgpCiAgY29uc3QgW2VtYWlsLCBzZXRFbWFpbF0gPSB1c2VTdGF0ZSgnJykKICBjb25zdCBbc2VuaGEsIHNldFNlbmhhXSA9IHVzZVN0YXRlKCcnKQogIGNvbnN0IFtlbnZpYW5kbywgc2V0RW52aWFuZG9dID0gdXNlU3RhdGUoZmFsc2UpCiAgY29uc3QgW2Vycm8sIHNldEVycm9dID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCkKCiAgaWYgKCFjYXJyZWdhbmRvICYmIHNlc3Npb24pIHsKICAgIHJldHVybiA8TmF2aWdhdGUgdG89Ii8iIHJlcGxhY2UgLz4KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGFvRW52aWFyKGU6IEZvcm1FdmVudCkgewogICAgZS5wcmV2ZW50RGVmYXVsdCgpCiAgICBzZXRFcnJvKG51bGwpCiAgICBzZXRFbnZpYW5kbyh0cnVlKQogICAgY29uc3QgcmVzdWx0YWRvID0gYXdhaXQgZW50cmFyKGVtYWlsLnRyaW0oKSwgc2VuaGEpCiAgICBzZXRFbnZpYW5kbyhmYWxzZSkKICAgIGlmIChyZXN1bHRhZG8uZXJybykgewogICAgICBzZXRFcnJvKHJlc3VsdGFkby5lcnJvKQogICAgfQogIH0KCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZWxhLWNlbnRyYWxpemFkYSI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIiBzdHlsZT17eyB3aWR0aDogJzEwMCUnLCBtYXhXaWR0aDogMzgwLCB0ZXh0QWxpZ246ICdsZWZ0JyB9fT4KICAgICAgICA8ZGl2IHN0eWxlPXt7IHRleHRBbGlnbjogJ2NlbnRlcicsIG1hcmdpbkJvdHRvbTogMjAgfX0+CiAgICAgICAgICA8aW1nCiAgICAgICAgICAgIHNyYz0iL2xvZ28tcmV2aXZlci5zdmciCiAgICAgICAgICAgIGFsdD0iQ29tdW5pZGFkZSBSZXZpdmVyIGVtIENyaXN0byIKICAgICAgICAgICAgc3R5bGU9e3sgaGVpZ2h0OiA5NiwgbWF4V2lkdGg6ICcxMDAlJyB9fQogICAgICAgICAgLz4KICAgICAgICAgIDxwIHN0eWxlPXt7IGNvbG9yOiAndmFyKC0tY29yLXRleHRvLXN1YXZlKScsIG1hcmdpbjogJzhweCAwIDAnLCBmb250U2l6ZTogJzAuOXJlbScgfX0+CiAgICAgICAgICAgIFJlbGF0w7NyaW9zIGRlIEN1bHRvCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHtlcnJvICYmIDxkaXYgY2xhc3NOYW1lPSJtZW5zYWdlbS1lcnJvIj57ZXJyb308L2Rpdj59CgogICAgICAgIDxmb3JtIG9uU3VibWl0PXthb0Vudmlhcn0gY2xhc3NOYW1lPSJwaWxoYSI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY2FtcG8iPgogICAgICAgICAgICA8bGFiZWwgaHRtbEZvcj0iZW1haWwiPkUtbWFpbDwvbGFiZWw+CiAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgIGlkPSJlbWFpbCIKICAgICAgICAgICAgICB0eXBlPSJlbWFpbCIKICAgICAgICAgICAgICBhdXRvQ29tcGxldGU9ImVtYWlsIgogICAgICAgICAgICAgIHJlcXVpcmVkCiAgICAgICAgICAgICAgdmFsdWU9e2VtYWlsfQogICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0RW1haWwoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJzZXVAZW1haWwuY29tIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNhbXBvIj4KICAgICAgICAgICAgPGxhYmVsIGh0bWxGb3I9InNlbmhhIj5TZW5oYTwvbGFiZWw+CiAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgIGlkPSJzZW5oYSIKICAgICAgICAgICAgICB0eXBlPSJwYXNzd29yZCIKICAgICAgICAgICAgICBhdXRvQ29tcGxldGU9ImN1cnJlbnQtcGFzc3dvcmQiCiAgICAgICAgICAgICAgcmVxdWlyZWQKICAgICAgICAgICAgICB2YWx1ZT17c2VuaGF9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRTZW5oYShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IuKAouKAouKAouKAouKAouKAouKAouKAoiIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxidXR0b24gdHlwZT0ic3VibWl0IiBjbGFzc05hbWU9ImJ0biBidG4tcHJpbWFyaW8iIGRpc2FibGVkPXtlbnZpYW5kb30+CiAgICAgICAgICAgIHtlbnZpYW5kbyA/ICdFbnRyYW5kby4uLicgOiAnRW50cmFyJ30KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZm9ybT4KCiAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6ICcwLjhyZW0nLCBjb2xvcjogJ3ZhcigtLWNvci10ZXh0by1zdWF2ZSknLCBtYXJnaW5Ub3A6IDE2LCB0ZXh0QWxpZ246ICdjZW50ZXInIH19PgogICAgICAgICAgTsOjbyBow6EgY2FkYXN0cm8gcMO6YmxpY28uIFN1YSBjb250YSDDqSBjcmlhZGEgcGVsbyBhZG1pbmlzdHJhZG9yLgogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApCn0K"}
+import { useState, type FormEvent } from 'react'
+import { Navigate } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext'
+
+export default function Login() {
+  const { session, carregando, entrar } = useAuth()
+  const [email, setEmail] = useState('')
+  const [senha, setSenha] = useState('')
+  const [enviando, setEnviando] = useState(false)
+  const [erro, setErro] = useState<string | null>(null)
+
+  if (!carregando && session) {
+    return <Navigate to="/" replace />
+  }
+
+  async function aoEnviar(e: FormEvent) {
+    e.preventDefault()
+    setErro(null)
+    setEnviando(true)
+    const resultado = await entrar(email.trim(), senha)
+    setEnviando(false)
+    if (resultado.erro) {
+      setErro(resultado.erro)
+    }
+  }
+
+  return (
+    <div className="tela-centralizada">
+      <div className="card" style={{ width: '100%', maxWidth: 380, textAlign: 'left' }}>
+        <div style={{ textAlign: 'center', marginBottom: 20 }}>
+          <img
+            src="/logo-reviver.svg"
+            alt="Comunidade Reviver em Cristo"
+            style={{ height: 96, maxWidth: '100%' }}
+          />
+          <p style={{ color: 'var(--cor-texto-suave)', margin: '8px 0 0', fontSize: '0.9rem' }}>
+            Relatórios de Culto
+          </p>
+        </div>
+
+        {erro && <div className="mensagem-erro">{erro}</div>}
+
+        <form onSubmit={aoEnviar} className="pilha">
+          <div className="campo">
+            <label htmlFor="email">E-mail</label>
+            <input
+              id="email"
+              type="email"
+              autoComplete="email"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="seu@email.com"
+            />
+          </div>
+
+          <div className="campo">
+            <label htmlFor="senha">Senha</label>
+            <input
+              id="senha"
+              type="password"
+              autoComplete="current-password"
+              required
+              value={senha}
+              onChange={(e) => setSenha(e.target.value)}
+              placeholder="••••••••"
+            />
+          </div>
+
+          <button type="submit" className="btn btn-primario" disabled={enviando}>
+            {enviando ? 'Entrando...' : 'Entrar'}
+          </button>
+        </form>
+
+        <p style={{ fontSize: '0.8rem', color: 'var(--cor-texto-suave)', marginTop: 16, textAlign: 'center' }}>
+          Não há cadastro público. Sua conta é criada pelo administrador.
+        </p>
+      </div>
+    </div>
+  )
+}

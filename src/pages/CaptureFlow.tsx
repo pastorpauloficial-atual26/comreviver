@@ -1,1 +1,568 @@
-{"data":"aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VNZW1vLCB1c2VSZWYsIHVzZVN0YXRlLCB0eXBlIENoYW5nZUV2ZW50IH0gZnJvbSAncmVhY3QnCmltcG9ydCB7IHVzZU5hdmlnYXRlIH0gZnJvbSAncmVhY3Qtcm91dGVyLWRvbScKaW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICcuLi9saWIvc3VwYWJhc2UnCmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICcuLi9jb250ZXh0L0F1dGhDb250ZXh0JwppbXBvcnQgewogIENBTVBPX1BBUkFfQUxFUlRBLAogIHR5cGUgRGl6aW1vUmFzY3VuaG8sCiAgdHlwZSBFeHRyYWNhb1JlbGF0b3JpbywKfSBmcm9tICcuLi90eXBlcy9kYXRhYmFzZScKCnR5cGUgRXRhcGEgPSAnY2FwdHVyYScgfCAncHJvY2Vzc2FuZG8nIHwgJ3JldmlzYW8nIHwgJ3N1Y2Vzc28nCgpjb25zdCBDQU1QT1NfVEVYVE86IHsgY2FtcG86IGtleW9mIEV4dHJhY2FvUmVsYXRvcmlvOyByb3R1bG86IHN0cmluZzsgdGlwbzogc3RyaW5nIH1bXSA9IFsKICB7IGNhbXBvOiAnZGlhX3NlbWFuYScsIHJvdHVsbzogJ0RpYSBkYSBTZW1hbmEnLCB0aXBvOiAndGV4dCcgfSwKICB7IGNhbXBvOiAnZGF0YV9jdWx0bycsIHJvdHVsbzogJ0RhdGEnLCB0aXBvOiAnZGF0ZScgfSwKICB7IGNhbXBvOiAnaG9yYXJpbycsIHJvdHVsbzogJ0hvcsOhcmlvJywgdGlwbzogJ3RleHQnIH0sCiAgeyBjYW1wbzogJ2RpcmlnZW50ZScsIHJvdHVsbzogJ0RpcmlnZW50ZScsIHRpcG86ICd0ZXh0JyB9LAogIHsgY2FtcG86ICdwcmVnYWRvcicsIHJvdHVsbzogJ1ByZWdhZG9yJywgdGlwbzogJ3RleHQnIH0sCiAgeyBjYW1wbzogJ3Jlc3BfcmVsYXRvcmlvJywgcm90dWxvOiAnUmVzcG9uc8OhdmVsIHBlbG8gUmVsYXTDs3JpbycsIHRpcG86ICd0ZXh0JyB9LApdCgpjb25zdCBDQU1QT1NfTlVNRVJJQ09TOiB7IGNhbXBvOiBrZXlvZiBFeHRyYWNhb1JlbGF0b3Jpbzsgcm90dWxvOiBzdHJpbmcgfVtdID0gWwogIHsgY2FtcG86ICd0b3RhbF92aXNpdGFzJywgcm90dWxvOiAnVG90YWwgZGUgVmlzaXRhcycgfSwKICB7IGNhbXBvOiAndG90YWxfcHJlc2VuY2FzJywgcm90dWxvOiAnVG90YWwgZGUgUHJlc2Vuw6dhcycgfSwKXQoKLy8gU3ViLVRvdGFsIGUgVG90YWwgR2VyYWwgTsODTyBlbnRyYW0gYXF1aSDigJQgc8OjbyBzZW1wcmUgY2FsY3VsYWRvcyBhIHBhcnRpcgovLyBkZXN0ZXMgaXRlbnMgKHZlciBgc3ViVG90YWxDYWxjdWxhZG9gL2B0b3RhbEdlcmFsQ2FsY3VsYWRvYCBubyBjb21wb25lbnRlKSwKLy8gbnVuY2EgZGlnaXRhZG9zIG1hbnVhbG1lbnRlLgpjb25zdCBDQU1QT1NfRklOQU5DRUlST1M6IHsgY2FtcG86IGtleW9mIEV4dHJhY2FvUmVsYXRvcmlvOyByb3R1bG86IHN0cmluZyB9W10gPSBbCiAgeyBjYW1wbzogJ29mZXJ0YXNfcHJpbWljaWFzJywgcm90dWxvOiAnT2ZlcnRhcyAvIFByaW3DrWNpYXMnIH0sCiAgeyBjYW1wbzogJ29mZXJ0YXNfZ2VyYWlzJywgcm90dWxvOiAnT2ZlcnRhcyBHZXJhaXMnIH0sCiAgeyBjYW1wbzogJ29mZXJ0YXNfcmFkaW8nLCByb3R1bG86ICdPZmVydGFzIFLDoWRpbycgfSwKICB7IGNhbXBvOiAndm90b3NfYmVuY2FvcycsIHJvdHVsbzogJ1ZvdG9zIGUgQsOqbsOnw6NvcycgfSwKICB7IGNhbXBvOiAnY2FtcGFuaGFzJywgcm90dWxvOiAnQ2FtcGFuaGFzJyB9LApdCgpmdW5jdGlvbiBleHRyYWNhb1ZhemlhKCk6IEV4dHJhY2FvUmVsYXRvcmlvIHsKICByZXR1cm4gewogICAgZGlhX3NlbWFuYTogbnVsbCwKICAgIGRhdGFfY3VsdG86IG51bGwsCiAgICBob3JhcmlvOiBudWxsLAogICAgdG90YWxfdmlzaXRhczogbnVsbCwKICAgIHRvdGFsX3ByZXNlbmNhczogbnVsbCwKICAgIGRpcmlnZW50ZTogbnVsbCwKICAgIHByZWdhZG9yOiBudWxsLAogICAgcmVzcF9yZWxhdG9yaW86IG51bGwsCiAgICBvZmVydGFzX3ByaW1pY2lhczogbnVsbCwKICAgIG9mZXJ0YXNfZ2VyYWlzOiBudWxsLAogICAgb2ZlcnRhc19yYWRpbzogbnVsbCwKICAgIHZvdG9zX2JlbmNhb3M6IG51bGwsCiAgICBjYW1wYW5oYXM6IG51bGwsCiAgICBzdWJfdG90YWw6IG51bGwsCiAgICBkaXppbW9zOiBbXSwKICAgIHRvdGFsX2dlcmFsOiBudWxsLAogICAgdGV4dG9fY29tcGxldG9fb2NyOiAnJywKICAgIGFsZXJ0YXNfcmV2aXNhbzogW10sCiAgfQp9CgpmdW5jdGlvbiBmb3JtYXRhck1vZWRhKHZhbG9yOiBudW1iZXIgfCBudWxsKSB7CiAgaWYgKHZhbG9yID09PSBudWxsIHx8IHZhbG9yID09PSB1bmRlZmluZWQpIHJldHVybiAnUiQg4oCUJwogIHJldHVybiB2YWxvci50b0xvY2FsZVN0cmluZygncHQtQlInLCB7IHN0eWxlOiAnY3VycmVuY3knLCBjdXJyZW5jeTogJ0JSTCcgfSkKfQoKZnVuY3Rpb24gYXJxdWl2b1BhcmFCYXNlNjQoYXJxdWl2bzogRmlsZSk6IFByb21pc2U8c3RyaW5nPiB7CiAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgIGNvbnN0IGxlaXRvciA9IG5ldyBGaWxlUmVhZGVyKCkKICAgIGxlaXRvci5vbmxvYWQgPSAoKSA9PiB7CiAgICAgIGNvbnN0IHJlc3VsdGFkbyA9IGxlaXRvci5yZXN1bHQgYXMgc3RyaW5nCiAgICAgIC8vIHJlbW92ZSBvIHByZWZpeG8gImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCwiIGRlaXhhbmRvIHPDsyBvIHBheWxvYWQKICAgICAgY29uc3QgYmFzZTY0ID0gcmVzdWx0YWRvLnNwbGl0KCcsJylbMV0gPz8gcmVzdWx0YWRvCiAgICAgIHJlc29sdmUoYmFzZTY0KQogICAgfQogICAgbGVpdG9yLm9uZXJyb3IgPSAoKSA9PiByZWplY3QobGVpdG9yLmVycm9yKQogICAgbGVpdG9yLnJlYWRBc0RhdGFVUkwoYXJxdWl2bykKICB9KQp9CgovKiogTWFwZWlhIG9zIHRleHRvcyBsaXZyZXMgZGUgYGFsZXJ0YXNfcmV2aXNhb2AgcGFyYSBvcyBjYW1wb3MgZG8gZm9ybXVsw6FyaW8sCiAqICB1c2FuZG8gY29ycmVzcG9uZMOqbmNpYSBwb3IgcGFsYXZyYS1jaGF2ZSAoaGV1csOtc3RpY2EsIHZlciBkb2NzLzAyKS4gKi8KZnVuY3Rpb24gY2FtcG9zRW1BbGVydGEoYWxlcnRhczogc3RyaW5nW10pOiBTZXQ8c3RyaW5nPiB7CiAgY29uc3QgcmVzdWx0YWRvID0gbmV3IFNldDxzdHJpbmc+KCkKICBjb25zdCB0ZXh0b0NvbWJpbmFkbyA9IGFsZXJ0YXMuam9pbignIHwgJykudG9Mb3dlckNhc2UoKQogIGZvciAoY29uc3QgW3BhbGF2cmFDaGF2ZSwgY2FtcG9zXSBvZiBPYmplY3QuZW50cmllcyhDQU1QT19QQVJBX0FMRVJUQSkpIHsKICAgIGlmICh0ZXh0b0NvbWJpbmFkby5pbmNsdWRlcyhwYWxhdnJhQ2hhdmUpKSB7CiAgICAgIGNhbXBvcy5mb3JFYWNoKChjKSA9PiByZXN1bHRhZG8uYWRkKGMpKQogICAgfQogIH0KICByZXR1cm4gcmVzdWx0YWRvCn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIENhcHR1cmVGbG93KCkgewogIGNvbnN0IG5hdmlnYXRlID0gdXNlTmF2aWdhdGUoKQogIGNvbnN0IHsgc2Vzc2lvbiB9ID0gdXNlQXV0aCgpCiAgY29uc3QgaW5wdXRDYW1lcmFSZWYgPSB1c2VSZWY8SFRNTElucHV0RWxlbWVudD4obnVsbCkKICBjb25zdCBpbnB1dEFycXVpdm9SZWYgPSB1c2VSZWY8SFRNTElucHV0RWxlbWVudD4obnVsbCkKCiAgY29uc3QgW2V0YXBhLCBzZXRFdGFwYV0gPSB1c2VTdGF0ZTxFdGFwYT4oJ2NhcHR1cmEnKQogIGNvbnN0IFthcnF1aXZvLCBzZXRBcnF1aXZvXSA9IHVzZVN0YXRlPEZpbGUgfCBudWxsPihudWxsKQogIGNvbnN0IFtwcmV2aWV3VXJsLCBzZXRQcmV2aWV3VXJsXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpCiAgY29uc3QgW2V4dHJhY2FvLCBzZXRFeHRyYWNhb10gPSB1c2VTdGF0ZTxFeHRyYWNhb1JlbGF0b3Jpbz4oZXh0cmFjYW9WYXppYSgpKQogIGNvbnN0IFtlcnJvLCBzZXRFcnJvXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpCiAgY29uc3QgW3NhbHZhbmRvLCBzZXRTYWx2YW5kb10gPSB1c2VTdGF0ZShmYWxzZSkKCiAgY29uc3QgYWxlcnRhc1BvckNhbXBvID0gdXNlTWVtbygKICAgICgpID0+IGNhbXBvc0VtQWxlcnRhKGV4dHJhY2FvLmFsZXJ0YXNfcmV2aXNhbyksCiAgICBbZXh0cmFjYW8uYWxlcnRhc19yZXZpc2FvXQogICkKCiAgLy8gU3ViLVRvdGFsID0gc29tYSBkYXMgb2ZlcnRhcy92b3Rvcy9jYW1wYW5oYXMuIFRvdGFsIEdlcmFsID0gU3ViLVRvdGFsICsKICAvLyBzb21hIGRvcyBkw616aW1vcy4gTmVuaHVtIGRvcyBkb2lzIMOpIGRpZ2l0YWRvIOKAlCBzw6NvIHNlbXByZSByZWNhbGN1bGFkb3MKICAvLyBhIHBhcnRpciBkb3MgaXRlbnMgcXVlIG9zIGNvbXDDtWVtIChtZXNtYSByZWdyYSBhcGxpY2FkYSBubyBzZXJ2aWRvciwKICAvLyBuYSBFZGdlIEZ1bmN0aW9uIGBzYWx2YXItcmVsYXRvcmlvYCwgcXVlIG51bmNhIGNvbmZpYSBlbSB2YWxvciBkbyBjbGllbnRlKS4KICBjb25zdCBzdWJUb3RhbENhbGN1bGFkbyA9IHVzZU1lbW8oCiAgICAoKSA9PgogICAgICAoTnVtYmVyKGV4dHJhY2FvLm9mZXJ0YXNfcHJpbWljaWFzKSB8fCAwKSArCiAgICAgIChOdW1iZXIoZXh0cmFjYW8ub2ZlcnRhc19nZXJhaXMpIHx8IDApICsKICAgICAgKE51bWJlcihleHRyYWNhby5vZmVydGFzX3JhZGlvKSB8fCAwKSArCiAgICAgIChOdW1iZXIoZXh0cmFjYW8udm90b3NfYmVuY2FvcykgfHwgMCkgKwogICAgICAoTnVtYmVyKGV4dHJhY2FvLmNhbXBhbmhhcykgfHwgMCksCiAgICBbCiAgICAgIGV4dHJhY2FvLm9mZXJ0YXNfcHJpbWljaWFzLAogICAgICBleHRyYWNhby5vZmVydGFzX2dlcmFpcywKICAgICAgZXh0cmFjYW8ub2ZlcnRhc19yYWRpbywKICAgICAgZXh0cmFjYW8udm90b3NfYmVuY2FvcywKICAgICAgZXh0cmFjYW8uY2FtcGFuaGFzLAogICAgXQogICkKCiAgY29uc3QgdG90YWxEaXppbW9zID0gdXNlTWVtbygKICAgICgpID0+CiAgICAgIGV4dHJhY2FvLmRpemltb3MucmVkdWNlKChzb21hLCBkKSA9PiBzb21hICsgKE51bWJlcihkLnZhbG9yKSB8fCAwKSwgMCksCiAgICBbZXh0cmFjYW8uZGl6aW1vc10KICApCgogIGNvbnN0IHRvdGFsRGl6aW1vc09mZXJ0YXMgPSB1c2VNZW1vKAogICAgKCkgPT4gdG90YWxEaXppbW9zICsgc3ViVG90YWxDYWxjdWxhZG8sCiAgICBbdG90YWxEaXppbW9zLCBzdWJUb3RhbENhbGN1bGFkb10KICApCgogIC8vIFRvdGFsIEdlcmFsIMOpIG8gbWVzbW8gdmFsb3IgZGUgIkTDrXppbW9zICsgT2ZlcnRhcyIg4oCUIG1hbnRlbW9zIG9zIGRvaXMKICAvLyBlbSBzaW5jcm9uaWEgcGFyYSBncmF2YXIgY29ycmV0YW1lbnRlIG5hIGNvbHVuYSBgdG90YWxfZ2VyYWxgLgogIGNvbnN0IHRvdGFsR2VyYWxDYWxjdWxhZG8gPSB0b3RhbERpemltb3NPZmVydGFzCgogIC8vIE1hbnTDqW0gYGV4dHJhY2FvLnN1Yl90b3RhbGAvYGV4dHJhY2FvLnRvdGFsX2dlcmFsYCBzZW1wcmUgZXNwZWxoYW5kbyBvcwogIC8vIHZhbG9yZXMgY2FsY3VsYWRvcywgcGFyYSBxdWUgbyBwYXlsb2FkIGVudmlhZG8gYW8gc2FsdmFyIGrDoSB2w6EgY29ycmV0bwogIC8vIChvIHNlcnZpZG9yIHJlY2FsY3VsYSBkZSBxdWFscXVlciBmb3JtYSwgbWFzIGEgdGVsYSBkZSByZXZpc8OjbyBkZXZlCiAgLy8gbW9zdHJhciBlIGVudmlhciBvcyBuw7ptZXJvcyByZWFpcywgbnVuY2EgdW0gdmFsb3IgZGlnaXRhZG8gw6AgbcOjbykuCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmIChleHRyYWNhby5zdWJfdG90YWwgIT09IHN1YlRvdGFsQ2FsY3VsYWRvKSB7CiAgICAgIGF0dWFsaXphckNhbXBvKCdzdWJfdG90YWwnLCBzdWJUb3RhbENhbGN1bGFkbykKICAgIH0KICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSByZWFjdC1ob29rcy9leGhhdXN0aXZlLWRlcHMKICB9LCBbc3ViVG90YWxDYWxjdWxhZG9dKQoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKGV4dHJhY2FvLnRvdGFsX2dlcmFsICE9PSB0b3RhbEdlcmFsQ2FsY3VsYWRvKSB7CiAgICAgIGF0dWFsaXphckNhbXBvKCd0b3RhbF9nZXJhbCcsIHRvdGFsR2VyYWxDYWxjdWxhZG8pCiAgICB9CiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgcmVhY3QtaG9va3MvZXhoYXVzdGl2ZS1kZXBzCiAgfSwgW3RvdGFsR2VyYWxDYWxjdWxhZG9dKQoKICBmdW5jdGlvbiBhb0VzY29saGVyQXJxdWl2byhlOiBDaGFuZ2VFdmVudDxIVE1MSW5wdXRFbGVtZW50PikgewogICAgY29uc3QgZiA9IGUudGFyZ2V0LmZpbGVzPy5bMF0KICAgIGlmICghZikgcmV0dXJuCiAgICBzZXRBcnF1aXZvKGYpCiAgICBzZXRFcnJvKG51bGwpCiAgICBpZiAoZi50eXBlLnN0YXJ0c1dpdGgoJ2ltYWdlLycpKSB7CiAgICAgIHNldFByZXZpZXdVcmwoVVJMLmNyZWF0ZU9iamVjdFVSTChmKSkKICAgIH0gZWxzZSB7CiAgICAgIHNldFByZXZpZXdVcmwobnVsbCkKICAgIH0KICB9CgogIGZ1bmN0aW9uIGxpbXBhckNhcHR1cmEoKSB7CiAgICBzZXRBcnF1aXZvKG51bGwpCiAgICBzZXRQcmV2aWV3VXJsKG51bGwpCiAgICBzZXRFcnJvKG51bGwpCiAgICBpZiAoaW5wdXRDYW1lcmFSZWYuY3VycmVudCkgaW5wdXRDYW1lcmFSZWYuY3VycmVudC52YWx1ZSA9ICcnCiAgICBpZiAoaW5wdXRBcnF1aXZvUmVmLmN1cnJlbnQpIGlucHV0QXJxdWl2b1JlZi5jdXJyZW50LnZhbHVlID0gJycKICB9CgogIGFzeW5jIGZ1bmN0aW9uIHByb2Nlc3NhckNvbUlBKCkgewogICAgaWYgKCFhcnF1aXZvKSByZXR1cm4KICAgIHNldEV0YXBhKCdwcm9jZXNzYW5kbycpCiAgICBzZXRFcnJvKG51bGwpCgogICAgdHJ5IHsKICAgICAgY29uc3QgaW1hZ2VtQmFzZTY0ID0gYXdhaXQgYXJxdWl2b1BhcmFCYXNlNjQoYXJxdWl2bykKCiAgICAgIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmZ1bmN0aW9ucy5pbnZva2UoJ3Byb2Nlc3Nhci1yZWxhdG9yaW8nLCB7CiAgICAgICAgYm9keTogewogICAgICAgICAgaW1hZ2VtX2Jhc2U2NDogaW1hZ2VtQmFzZTY0LAogICAgICAgICAgbm9tZV9hcnF1aXZvOiBhcnF1aXZvLm5hbWUsCiAgICAgICAgICB0aXBvX21pbWU6IGFycXVpdm8udHlwZSB8fCAnYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtJywKICAgICAgICB9LAogICAgICB9KQoKICAgICAgaWYgKGVycm9yKSB0aHJvdyBlcnJvcgoKICAgICAgY29uc3QgcmVzdWx0YWRvID0gZGF0YSBhcyBFeHRyYWNhb1JlbGF0b3JpbwogICAgICBzZXRFeHRyYWNhbyh7IC4uLmV4dHJhY2FvVmF6aWEoKSwgLi4ucmVzdWx0YWRvIH0pCiAgICAgIHNldEV0YXBhKCdyZXZpc2FvJykKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgY29uc3QgbWVuc2FnZW0gPSBlIGluc3RhbmNlb2YgRXJyb3IgPyBlLm1lc3NhZ2UgOiAnRXJybyBkZXNjb25oZWNpZG8gYW8gcHJvY2Vzc2FyIG8gcmVsYXTDs3Jpby4nCiAgICAgIHNldEVycm8oJ07Do28gZm9pIHBvc3PDrXZlbCBwcm9jZXNzYXIgbyByZWxhdMOzcmlvOiAnICsgbWVuc2FnZW0pCiAgICAgIHNldEV0YXBhKCdjYXB0dXJhJykKICAgIH0KICB9CgogIGZ1bmN0aW9uIGF0dWFsaXphckNhbXBvPEsgZXh0ZW5kcyBrZXlvZiBFeHRyYWNhb1JlbGF0b3Jpbz4oY2FtcG86IEssIHZhbG9yOiBFeHRyYWNhb1JlbGF0b3Jpb1tLXSkgewogICAgc2V0RXh0cmFjYW8oKGF0dWFsKSA9PiAoeyAuLi5hdHVhbCwgW2NhbXBvXTogdmFsb3IgfSkpCiAgfQoKICBmdW5jdGlvbiBhdHVhbGl6YXJDYW1wb051bWVyaWNvKGNhbXBvOiBrZXlvZiBFeHRyYWNhb1JlbGF0b3JpbywgdmFsb3JUZXh0bzogc3RyaW5nKSB7CiAgICBpZiAodmFsb3JUZXh0byA9PT0gJycpIHsKICAgICAgYXR1YWxpemFyQ2FtcG8oY2FtcG8sIG51bGwgYXMgbmV2ZXIpCiAgICAgIHJldHVybgogICAgfQogICAgY29uc3QgdmFsb3IgPSBOdW1iZXIodmFsb3JUZXh0bykKICAgIGF0dWFsaXphckNhbXBvKGNhbXBvLCAoTnVtYmVyLmlzTmFOKHZhbG9yKSA/IG51bGwgOiB2YWxvcikgYXMgbmV2ZXIpCiAgfQoKICBmdW5jdGlvbiBhZGljaW9uYXJEaXppbW8oKSB7CiAgICBzZXRFeHRyYWNhbygoYXR1YWwpID0+ICh7CiAgICAgIC4uLmF0dWFsLAogICAgICBkaXppbW9zOiBbLi4uYXR1YWwuZGl6aW1vcywgeyBub21lOiAnJywgdmFsb3I6IDAgfV0sCiAgICB9KSkKICB9CgogIGZ1bmN0aW9uIGF0dWFsaXphckRpemltbyhpbmRpY2U6IG51bWJlciwgcGFyY2lhbDogUGFydGlhbDxEaXppbW9SYXNjdW5obz4pIHsKICAgIHNldEV4dHJhY2FvKChhdHVhbCkgPT4gKHsKICAgICAgLi4uYXR1YWwsCiAgICAgIGRpemltb3M6IGF0dWFsLmRpemltb3MubWFwKChkLCBpKSA9PiAoaSA9PT0gaW5kaWNlID8geyAuLi5kLCAuLi5wYXJjaWFsIH0gOiBkKSksCiAgICB9KSkKICB9CgogIGZ1bmN0aW9uIHJlbW92ZXJEaXppbW8oaW5kaWNlOiBudW1iZXIpIHsKICAgIHNldEV4dHJhY2FvKChhdHVhbCkgPT4gKHsKICAgICAgLi4uYXR1YWwsCiAgICAgIGRpemltb3M6IGF0dWFsLmRpemltb3MuZmlsdGVyKChfLCBpKSA9PiBpICE9PSBpbmRpY2UpLAogICAgfSkpCiAgfQoKICBmdW5jdGlvbiBkZXNjYXJ0YXIoKSB7CiAgICBzZXRFdGFwYSgnY2FwdHVyYScpCiAgICBzZXRFeHRyYWNhbyhleHRyYWNhb1ZhemlhKCkpCiAgICBsaW1wYXJDYXB0dXJhKCkKICB9CgogIC8qKiBBbHRlcm5hdGl2YSDDoCBmb3RvL2FycXVpdm8gKyBJQTogcHVsYSBkaXJldG8gcGFyYSBhIHRlbGEgZGUgcmV2aXPDo28KICAgKiAgY29tIG8gZm9ybXVsw6FyaW8gZW0gYnJhbmNvLCBwYXJhIGRpZ2l0YcOnw6NvIG1hbnVhbCBkb3MgZGFkb3MuICovCiAgZnVuY3Rpb24gZGlnaXRhck1hbnVhbG1lbnRlKCkgewogICAgc2V0RXJybyhudWxsKQogICAgbGltcGFyQ2FwdHVyYSgpCiAgICBzZXRFeHRyYWNhbyhleHRyYWNhb1ZhemlhKCkpCiAgICBzZXRFdGFwYSgncmV2aXNhbycpCiAgfQoKICBhc3luYyBmdW5jdGlvbiBjb25maXJtYXJFU2FsdmFyKCkgewogICAgaWYgKCFzZXNzaW9uKSByZXR1cm4KICAgIHNldFNhbHZhbmRvKHRydWUpCiAgICBzZXRFcnJvKG51bGwpCgogICAgdHJ5IHsKICAgICAgY29uc3QgcGF5bG9hZCA9IHsKICAgICAgICAuLi5leHRyYWNhbywKICAgICAgICBkaXppbW9zOiBleHRyYWNhby5kaXppbW9zCiAgICAgICAgICAuZmlsdGVyKChkKSA9PiBkLm5vbWUudHJpbSgpICE9PSAnJykKICAgICAgICAgIC5tYXAoKGQpID0+ICh7IG5vbWU6IGQubm9tZS50cmltKCksIHZhbG9yOiBkLnZhbG9yID8/IDAgfSkpLAogICAgICB9CgogICAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5mdW5jdGlvbnMuaW52b2tlKCdzYWx2YXItcmVsYXRvcmlvJywgewogICAgICAgIGJvZHk6IHBheWxvYWQsCiAgICAgIH0pCgogICAgICBpZiAoZXJyb3IpIHRocm93IGVycm9yCgogICAgICBzZXRFdGFwYSgnc3VjZXNzbycpCiAgICB9IGNhdGNoIChlKSB7CiAgICAgIGNvbnN0IG1lbnNhZ2VtID0gZSBpbnN0YW5jZW9mIEVycm9yID8gZS5tZXNzYWdlIDogJ0Vycm8gZGVzY29uaGVjaWRvIGFvIHNhbHZhci4nCiAgICAgIHNldEVycm8oJ07Do28gZm9pIHBvc3PDrXZlbCBzYWx2YXIgbyByZWxhdMOzcmlvOiAnICsgbWVuc2FnZW0pCiAgICB9IGZpbmFsbHkgewogICAgICBzZXRTYWx2YW5kbyhmYWxzZSkKICAgIH0KICB9CgogIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAvLyBFVEFQQTogY2FwdHVyYQogIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICBpZiAoZXRhcGEgPT09ICdjYXB0dXJhJykgewogICAgcmV0dXJuICgKICAgICAgPGRpdiBjbGFzc05hbWU9InRlbGEiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0b3BvIj4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxpbWcKICAgICAgICAgICAgICBzcmM9Ii9sb2dvLXJldml2ZXIuc3ZnIgogICAgICAgICAgICAgIGFsdD0iQ29tdW5pZGFkZSBSZXZpdmVyIGVtIENyaXN0byIKICAgICAgICAgICAgICBzdHlsZT17eyBoZWlnaHQ6IDMyLCBkaXNwbGF5OiAnYmxvY2snLCBtYXJnaW5Cb3R0b206IDQgfX0KICAgICAgICAgICAgLz4KICAgICAgICAgICAgPGgxIHN0eWxlPXt7IG1hcmdpbjogMCB9fT5DYXB0dXJhciBSZWxhdMOzcmlvPC9oMT4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9ImJ0bi1saW5rIiBvbkNsaWNrPXsoKSA9PiBuYXZpZ2F0ZSgnLycpfT4KICAgICAgICAgICAgQ2FuY2VsYXIKICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgoKICAgICAgICB7ZXJybyAmJiA8ZGl2IGNsYXNzTmFtZT0ibWVuc2FnZW0tZXJybyI+e2Vycm99PC9kaXY+fQoKICAgICAgICB7cHJldmlld1VybCA/ICgKICAgICAgICAgIDxpbWcgc3JjPXtwcmV2aWV3VXJsfSBhbHQ9IlByw6ktdmlzdWFsaXphw6fDo28gZG8gcmVsYXTDs3JpbyIgY2xhc3NOYW1lPSJwcmV2aWV3LWltYWdlbSIgLz4KICAgICAgICApIDogYXJxdWl2byA/ICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIiBzdHlsZT17eyB0ZXh0QWxpZ246ICdjZW50ZXInIH19PgogICAgICAgICAgICDwn5OEIHthcnF1aXZvLm5hbWV9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApIDogKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNhcmQgZXN0YWRvLXZhemlvIiBzdHlsZT17eyBwYWRkaW5nOiAyNCB9fT4KICAgICAgICAgICAgTmVuaHVtIGFycXVpdm8gc2VsZWNpb25hZG8gYWluZGEuCiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icGlsaGEiIHN0eWxlPXt7IG1hcmdpblRvcDogMTYgfX0+CiAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgcmVmPXtpbnB1dENhbWVyYVJlZn0KICAgICAgICAgICAgdHlwZT0iZmlsZSIKICAgICAgICAgICAgYWNjZXB0PSJpbWFnZS8qIgogICAgICAgICAgICBjYXB0dXJlPSJlbnZpcm9ubWVudCIKICAgICAgICAgICAgb25DaGFuZ2U9e2FvRXNjb2xoZXJBcnF1aXZvfQogICAgICAgICAgICBzdHlsZT17eyBkaXNwbGF5OiAnbm9uZScgfX0KICAgICAgICAgIC8+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIGNsYXNzTmFtZT0iYnRuIGJ0bi1zZWN1bmRhcmlvIgogICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBpbnB1dENhbWVyYVJlZi5jdXJyZW50Py5jbGljaygpfQogICAgICAgICAgPgogICAgICAgICAgICDwn5O3IFRpcmFyIEZvdG8KICAgICAgICAgIDwvYnV0dG9uPgoKICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICByZWY9e2lucHV0QXJxdWl2b1JlZn0KICAgICAgICAgICAgdHlwZT0iZmlsZSIKICAgICAgICAgICAgYWNjZXB0PSJpbWFnZS8qLGFwcGxpY2F0aW9uL3BkZiIKICAgICAgICAgICAgb25DaGFuZ2U9e2FvRXNjb2xoZXJBcnF1aXZvfQogICAgICAgICAgICBzdHlsZT17eyBkaXNwbGF5OiAnbm9uZScgfX0KICAgICAgICAgIC8+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIGNsYXNzTmFtZT0iYnRuIGJ0bi1zZWN1bmRhcmlvIgogICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBpbnB1dEFycXVpdm9SZWYuY3VycmVudD8uY2xpY2soKX0KICAgICAgICAgID4KICAgICAgICAgICAg8J+TgSBTZWxlY2lvbmFyIEFycXVpdm8KICAgICAgICAgIDwvYnV0dG9uPgoKICAgICAgICAgIHthcnF1aXZvICYmICgKICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9ImJ0bi1saW5rIiBvbkNsaWNrPXtsaW1wYXJDYXB0dXJhfT4KICAgICAgICAgICAgICBSZW1vdmVyIHNlbGXDp8OjbwogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICl9CgogICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9ImJ0biBidG4tc2VjdW5kYXJpbyIgb25DbGljaz17ZGlnaXRhck1hbnVhbG1lbnRlfT4KICAgICAgICAgICAg4oyo77iPIERpZ2l0YXIKICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IHN0eWxlPXt7IGZsZXg6IDEgfX0gLz4KCiAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9ImJ0biBidG4tcHJpbWFyaW8iIGRpc2FibGVkPXshYXJxdWl2b30gb25DbGljaz17cHJvY2Vzc2FyQ29tSUF9PgogICAgICAgICAgUHJvY2Vzc2FyIGNvbSBJQQogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgICkKICB9CgogIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAvLyBFVEFQQTogcHJvY2Vzc2FuZG8KICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgaWYgKGV0YXBhID09PSAncHJvY2Vzc2FuZG8nKSB7CiAgICByZXR1cm4gKAogICAgICA8ZGl2IGNsYXNzTmFtZT0idGVsYS1jZW50cmFsaXphZGEiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGlubmVyIiBzdHlsZT17eyBtYXJnaW5Cb3R0b206IDE2IH19IC8+CiAgICAgICAgPHA+TGVuZG8gbyByZWxhdMOzcmlvLi4uPC9wPgogICAgICAgIDxwIHN0eWxlPXt7IGNvbG9yOiAndmFyKC0tY29yLXRleHRvLXN1YXZlKScsIGZvbnRTaXplOiAnMC44NXJlbScgfX0+CiAgICAgICAgICBJc3NvIHBvZGUgbGV2YXIgYWxndW5zIHNlZ3VuZG9zLgogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICApCiAgfQoKICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgLy8gRVRBUEE6IHJldmlzw6NvCiAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogIGlmIChldGFwYSA9PT0gJ3JldmlzYW8nKSB7CiAgICByZXR1cm4gKAogICAgICA8ZGl2IGNsYXNzTmFtZT0idGVsYSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InRvcG8iPgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgIHNyYz0iL2xvZ28tcmV2aXZlci5zdmciCiAgICAgICAgICAgICAgYWx0PSJDb211bmlkYWRlIFJldml2ZXIgZW0gQ3Jpc3RvIgogICAgICAgICAgICAgIHN0eWxlPXt7IGhlaWdodDogMzIsIGRpc3BsYXk6ICdibG9jaycsIG1hcmdpbkJvdHRvbTogNCB9fQogICAgICAgICAgICAvPgogICAgICAgICAgICA8aDEgc3R5bGU9e3sgbWFyZ2luOiAwIH19PlJldmlzYXIgUmVsYXTDs3JpbzwvaDE+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAge2Vycm8gJiYgPGRpdiBjbGFzc05hbWU9Im1lbnNhZ2VtLWVycm8iPntlcnJvfTwvZGl2Pn0KCiAgICAgICAge3ByZXZpZXdVcmwgJiYgKAogICAgICAgICAgPGltZyBzcmM9e3ByZXZpZXdVcmx9IGFsdD0iUmVsYXTDs3JpbyBvcmlnaW5hbCIgY2xhc3NOYW1lPSJtaW5pYXR1cmEtaW1hZ2VtIiBzdHlsZT17eyBtYXJnaW5Cb3R0b206IDggfX0gLz4KICAgICAgICApfQoKICAgICAgICB7ZXh0cmFjYW8uYWxlcnRhc19yZXZpc2FvLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNhcmQiIHN0eWxlPXt7IGJhY2tncm91bmQ6ICd2YXIoLS1jb3ItYWxlcnRhLWZ1bmRvKScsIGJvcmRlckNvbG9yOiAndmFyKC0tY29yLWFsZXJ0YSknLCBtYXJnaW5Ub3A6IDEyIH19PgogICAgICAgICAgICA8c3Ryb25nIHN0eWxlPXt7IGNvbG9yOiAnIzkyNDAwZScgfX0+4pqg77iPIFBvbnRvcyBwYXJhIHJldmlzYXI6PC9zdHJvbmc+CiAgICAgICAgICAgIDx1bCBzdHlsZT17eyBtYXJnaW46ICc4cHggMCAwJywgcGFkZGluZ0xlZnQ6IDE4LCBjb2xvcjogJyM5MjQwMGUnLCBmb250U2l6ZTogJzAuODVyZW0nIH19PgogICAgICAgICAgICAgIHtleHRyYWNhby5hbGVydGFzX3JldmlzYW8ubWFwKChhbGVydGEsIGkpID0+ICgKICAgICAgICAgICAgICAgIDxsaSBrZXk9e2l9PnthbGVydGF9PC9saT4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC91bD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzZWNhby10aXR1bG8iPkRhZG9zIGRvIEN1bHRvPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InBpbGhhIj4KICAgICAgICAgIHtDQU1QT1NfVEVYVE8ubWFwKCh7IGNhbXBvLCByb3R1bG8sIHRpcG8gfSkgPT4gKAogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAga2V5PXtjYW1wb30KICAgICAgICAgICAgICBjbGFzc05hbWU9e2BjYW1wbyAke2FsZXJ0YXNQb3JDYW1wby5oYXMoY2FtcG8pID8gJ2FsZXJ0YScgOiAnJ31gfQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGxhYmVsIGh0bWxGb3I9e2NhbXBvfT57cm90dWxvfTwvbGFiZWw+CiAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICBpZD17Y2FtcG99CiAgICAgICAgICAgICAgICB0eXBlPXt0aXBvfQogICAgICAgICAgICAgICAgdmFsdWU9eyhleHRyYWNhb1tjYW1wb10gYXMgc3RyaW5nIHwgbnVsbCkgPz8gJyd9CiAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IGF0dWFsaXphckNhbXBvKGNhbXBvLCBlLnRhcmdldC52YWx1ZSBhcyBuZXZlcil9CiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApKX0KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsaW5oYSI+CiAgICAgICAgICAgIHtDQU1QT1NfTlVNRVJJQ09TLm1hcCgoeyBjYW1wbywgcm90dWxvIH0pID0+ICgKICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBrZXk9e2NhbXBvfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgY2FtcG8gJHthbGVydGFzUG9yQ2FtcG8uaGFzKGNhbXBvKSA/ICdhbGVydGEnIDogJyd9YH0KICAgICAgICAgICAgICAgIHN0eWxlPXt7IGZsZXg6IDEgfX0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8bGFiZWwgaHRtbEZvcj17Y2FtcG99Pntyb3R1bG99PC9sYWJlbD4KICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICBpZD17Y2FtcG99CiAgICAgICAgICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgICAgICAgICAgdmFsdWU9eyhleHRyYWNhb1tjYW1wb10gYXMgbnVtYmVyIHwgbnVsbCkgPz8gJyd9CiAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gYXR1YWxpemFyQ2FtcG9OdW1lcmljbyhjYW1wbywgZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNlY2FvLXRpdHVsbyI+TW92aW1lbnRvIEZpbmFuY2Vpcm88L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icGlsaGEiPgogICAgICAgICAge0NBTVBPU19GSU5BTkNFSVJPUy5tYXAoKHsgY2FtcG8sIHJvdHVsbyB9KSA9PiAoCiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICBrZXk9e2NhbXBvfQogICAgICAgICAgICAgIGNsYXNzTmFtZT17YGNhbXBvICR7YWxlcnRhc1BvckNhbXBvLmhhcyhjYW1wbykgPyAnYWxlcnRhJyA6ICcnfWB9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8bGFiZWwgaHRtbEZvcj17Y2FtcG99Pntyb3R1bG99IChSJCk8L2xhYmVsPgogICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgaWQ9e2NhbXBvfQogICAgICAgICAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgICAgICAgICAgc3RlcD0iMC4wMSIKICAgICAgICAgICAgICAgIHZhbHVlPXsoZXh0cmFjYW9bY2FtcG9dIGFzIG51bWJlciB8IG51bGwpID8/ICcnfQogICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBhdHVhbGl6YXJDYW1wb051bWVyaWNvKGNhbXBvLCBlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApKX0KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGluaGEtZGV0YWxoZSIgc3R5bGU9e3sgbWFyZ2luVG9wOiA0IH19PgogICAgICAgICAgICA8c3Bhbj5TdWItVG90YWwgKHNvbWEgZGFzIG9mZXJ0YXMgYWNpbWEpPC9zcGFuPgogICAgICAgICAgICA8c3Ryb25nPntmb3JtYXRhck1vZWRhKHN1YlRvdGFsQ2FsY3VsYWRvKX08L3N0cm9uZz4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic2VjYW8tdGl0dWxvIj5Ew616aW1vczwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsaXN0YS1kaXppbW9zIj4KICAgICAgICAgIHtleHRyYWNhby5kaXppbW9zLm1hcCgoZCwgaSkgPT4gKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGluaGEtZGl6aW1vIiBrZXk9e2l9PgogICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgdHlwZT0idGV4dCIKICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJOb21lIGRvIGRpemltaXN0YSIKICAgICAgICAgICAgICAgIHZhbHVlPXtkLm5vbWV9CiAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IGF0dWFsaXphckRpemltbyhpLCB7IG5vbWU6IGUudGFyZ2V0LnZhbHVlIH0pfQogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICB0eXBlPSJudW1iZXIiCiAgICAgICAgICAgICAgICBzdGVwPSIwLjAxIgogICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IlZhbG9yIgogICAgICAgICAgICAgICAgdmFsdWU9e2QudmFsb3IgPz8gJyd9CiAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+CiAgICAgICAgICAgICAgICAgIGF0dWFsaXphckRpemltbyhpLCB7IHZhbG9yOiBlLnRhcmdldC52YWx1ZSA9PT0gJycgPyBudWxsIDogTnVtYmVyKGUudGFyZ2V0LnZhbHVlKSB9KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9ImJvdGFvLXJlbW92ZXIiIG9uQ2xpY2s9eygpID0+IHJlbW92ZXJEaXppbW8oaSl9IGFyaWEtbGFiZWw9IlJlbW92ZXIgZMOtemltbyI+CiAgICAgICAgICAgICAgICDinJUKICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApKX0KICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJidG4gYnRuLXNlY3VuZGFyaW8iIG9uQ2xpY2s9e2FkaWNpb25hckRpemltb30+CiAgICAgICAgICAgICsgQWRpY2lvbmFyIETDrXppbW8KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic2VjYW8tdGl0dWxvIj5Ub3RhaXMgQ2FsY3VsYWRvczwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIiBzdHlsZT17eyBtYXJnaW5Cb3R0b206IDE2IH19PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxpbmhhLWRldGFsaGUiPgogICAgICAgICAgICA8c3Bhbj5Ub3RhbCBkZSBEw616aW1vczwvc3Bhbj4KICAgICAgICAgICAgPHN0cm9uZz57Zm9ybWF0YXJNb2VkYSh0b3RhbERpemltb3MpfTwvc3Ryb25nPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGluaGEtZGV0YWxoZSIgc3R5bGU9e3sgbWFyZ2luVG9wOiA2IH19PgogICAgICAgICAgICA8c3Bhbj5Ub3RhbCBEw616aW1vcyArIE9mZXJ0YXM8L3NwYW4+CiAgICAgICAgICAgIDxzdHJvbmc+e2Zvcm1hdGFyTW9lZGEodG90YWxEaXppbW9zT2ZlcnRhcyl9PC9zdHJvbmc+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxwIHN0eWxlPXt7IGNvbG9yOiAndmFyKC0tY29yLXRleHRvLXN1YXZlKScsIGZvbnRTaXplOiAnMC44cmVtJywgbWFyZ2luOiAnOHB4IDAgMCcgfX0+CiAgICAgICAgICAgIENhbGN1bGFkbyBhdXRvbWF0aWNhbWVudGU6IGTDrXppbW9zIGxhbsOnYWRvcyArIHN1Yi10b3RhbCBkYXMgb2ZlcnRhcy4KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNlY2FvLXRpdHVsbyI+VG90YWwgR2VyYWw8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY2FyZCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGluaGEtZGV0YWxoZSI+CiAgICAgICAgICAgIDxzcGFuPlRvdGFsIEdlcmFsIChSJCk8L3NwYW4+CiAgICAgICAgICAgIDxzdHJvbmc+e2Zvcm1hdGFyTW9lZGEodG90YWxHZXJhbENhbGN1bGFkbyl9PC9zdHJvbmc+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxwIHN0eWxlPXt7IGNvbG9yOiAndmFyKC0tY29yLXRleHRvLXN1YXZlKScsIGZvbnRTaXplOiAnMC44cmVtJywgbWFyZ2luOiAnOHB4IDAgMCcgfX0+CiAgICAgICAgICAgIFN1Yi1Ub3RhbCBkYXMgb2ZlcnRhcyArIFRvdGFsIGRlIETDrXppbW9zLiBOw6NvIMOpIGRpZ2l0YWRvIG1hbnVhbG1lbnRlLgogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icGlsaGEiIHN0eWxlPXt7IG1hcmdpblRvcDogMjQgfX0+CiAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT0iYnRuIGJ0bi1wcmltYXJpbyIgZGlzYWJsZWQ9e3NhbHZhbmRvfSBvbkNsaWNrPXtjb25maXJtYXJFU2FsdmFyfT4KICAgICAgICAgICAge3NhbHZhbmRvID8gJ1NhbHZhbmRvLi4uJyA6ICdDb25maXJtYXIgZSBTYWx2YXInfQogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT0iYnRuIGJ0bi1wZXJpZ28iIGRpc2FibGVkPXtzYWx2YW5kb30gb25DbGljaz17ZGVzY2FydGFyfT4KICAgICAgICAgICAgRGVzY2FydGFyCiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICApCiAgfQoKICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgLy8gRVRBUEE6IHN1Y2Vzc28KICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZWxhLWNlbnRyYWxpemFkYSI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJpY29uZS1zdWNlc3NvIj7inJM8L2Rpdj4KICAgICAgPGgyIHN0eWxlPXt7IG1hcmdpbjogJzAgMCA4cHgnIH19PlJlbGF0w7NyaW8gc2Fsdm8gY29tIHN1Y2Vzc28hPC9oMj4KICAgICAgPHAgc3R5bGU9e3sgY29sb3I6ICd2YXIoLS1jb3ItdGV4dG8tc3VhdmUpJywgbWFyZ2luQm90dG9tOiAyNCB9fT4KICAgICAgICBPcyBkYWRvcyBmb3JhbSByZWdpc3RyYWRvcyBlIG8gcGFzdG9yIGZvaSBub3RpZmljYWRvLgogICAgICA8L3A+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJwaWxoYSIgc3R5bGU9e3sgd2lkdGg6ICcxMDAlJywgbWF4V2lkdGg6IDMyMCB9fT4KICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT0iYnRuIGJ0bi1wcmltYXJpbyIgb25DbGljaz17ZGVzY2FydGFyfT4KICAgICAgICAgIENhcHR1cmFyIE91dHJvCiAgICAgICAgPC9idXR0b24+CiAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9ImJ0biBidG4tc2VjdW5kYXJpbyIgb25DbGljaz17KCkgPT4gbmF2aWdhdGUoJy8nKX0+CiAgICAgICAgICBWb2x0YXIgYW8gSW7DrWNpbwogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICkKfQo="}
+import { useEffect, useMemo, useRef, useState, type ChangeEvent } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { supabase } from '../lib/supabase'
+import { useAuth } from '../context/AuthContext'
+import {
+  CAMPO_PARA_ALERTA,
+  type DizimoRascunho,
+  type ExtracaoRelatorio,
+} from '../types/database'
+
+type Etapa = 'captura' | 'processando' | 'revisao' | 'sucesso'
+
+const CAMPOS_TEXTO: { campo: keyof ExtracaoRelatorio; rotulo: string; tipo: string }[] = [
+  { campo: 'dia_semana', rotulo: 'Dia da Semana', tipo: 'text' },
+  { campo: 'data_culto', rotulo: 'Data', tipo: 'date' },
+  { campo: 'horario', rotulo: 'Horário', tipo: 'text' },
+  { campo: 'dirigente', rotulo: 'Dirigente', tipo: 'text' },
+  { campo: 'pregador', rotulo: 'Pregador', tipo: 'text' },
+  { campo: 'resp_relatorio', rotulo: 'Responsável pelo Relatório', tipo: 'text' },
+]
+
+const CAMPOS_NUMERICOS: { campo: keyof ExtracaoRelatorio; rotulo: string }[] = [
+  { campo: 'total_visitas', rotulo: 'Total de Visitas' },
+  { campo: 'total_presencas', rotulo: 'Total de Presenças' },
+]
+
+// Sub-Total e Total Geral NÃO entram aqui — são sempre calculados a partir
+// destes itens (ver `subTotalCalculado`/`totalGeralCalculado` no componente),
+// nunca digitados manualmente.
+const CAMPOS_FINANCEIROS: { campo: keyof ExtracaoRelatorio; rotulo: string }[] = [
+  { campo: 'ofertas_primicias', rotulo: 'Ofertas / Primícias' },
+  { campo: 'ofertas_gerais', rotulo: 'Ofertas Gerais' },
+  { campo: 'ofertas_radio', rotulo: 'Ofertas Rádio' },
+  { campo: 'votos_bencaos', rotulo: 'Votos e Bênçãos' },
+  { campo: 'campanhas', rotulo: 'Campanhas' },
+]
+
+function extracaoVazia(): ExtracaoRelatorio {
+  return {
+    dia_semana: null,
+    data_culto: null,
+    horario: null,
+    total_visitas: null,
+    total_presencas: null,
+    dirigente: null,
+    pregador: null,
+    resp_relatorio: null,
+    ofertas_primicias: null,
+    ofertas_gerais: null,
+    ofertas_radio: null,
+    votos_bencaos: null,
+    campanhas: null,
+    sub_total: null,
+    dizimos: [],
+    total_geral: null,
+    texto_completo_ocr: '',
+    alertas_revisao: [],
+  }
+}
+
+function formatarMoeda(valor: number | null) {
+  if (valor === null || valor === undefined) return 'R$ —'
+  return valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
+}
+
+function arquivoParaBase64(arquivo: File): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const leitor = new FileReader()
+    leitor.onload = () => {
+      const resultado = leitor.result as string
+      // remove o prefixo "data:image/png;base64," deixando só o payload
+      const base64 = resultado.split(',')[1] ?? resultado
+      resolve(base64)
+    }
+    leitor.onerror = () => reject(leitor.error)
+    leitor.readAsDataURL(arquivo)
+  })
+}
+
+/** Mapeia os textos livres de `alertas_revisao` para os campos do formulário,
+ *  usando correspondência por palavra-chave (heurística, ver docs/02). */
+function camposEmAlerta(alertas: string[]): Set<string> {
+  const resultado = new Set<string>()
+  const textoCombinado = alertas.join(' | ').toLowerCase()
+  for (const [palavraChave, campos] of Object.entries(CAMPO_PARA_ALERTA)) {
+    if (textoCombinado.includes(palavraChave)) {
+      campos.forEach((c) => resultado.add(c))
+    }
+  }
+  return resultado
+}
+
+export default function CaptureFlow() {
+  const navigate = useNavigate()
+  const { session } = useAuth()
+  const inputCameraRef = useRef<HTMLInputElement>(null)
+  const inputArquivoRef = useRef<HTMLInputElement>(null)
+
+  const [etapa, setEtapa] = useState<Etapa>('captura')
+  const [arquivo, setArquivo] = useState<File | null>(null)
+  const [previewUrl, setPreviewUrl] = useState<string | null>(null)
+  const [extracao, setExtracao] = useState<ExtracaoRelatorio>(extracaoVazia())
+  const [erro, setErro] = useState<string | null>(null)
+  const [salvando, setSalvando] = useState(false)
+
+  const alertasPorCampo = useMemo(
+    () => camposEmAlerta(extracao.alertas_revisao),
+    [extracao.alertas_revisao]
+  )
+
+  // Sub-Total = soma das ofertas/votos/campanhas. Total Geral = Sub-Total +
+  // soma dos dízimos. Nenhum dos dois é digitado — são sempre recalculados
+  // a partir dos itens que os compõem (mesma regra aplicada no servidor,
+  // na Edge Function `salvar-relatorio`, que nunca confia em valor do cliente).
+  const subTotalCalculado = useMemo(
+    () =>
+      (Number(extracao.ofertas_primicias) || 0) +
+      (Number(extracao.ofertas_gerais) || 0) +
+      (Number(extracao.ofertas_radio) || 0) +
+      (Number(extracao.votos_bencaos) || 0) +
+      (Number(extracao.campanhas) || 0),
+    [
+      extracao.ofertas_primicias,
+      extracao.ofertas_gerais,
+      extracao.ofertas_radio,
+      extracao.votos_bencaos,
+      extracao.campanhas,
+    ]
+  )
+
+  const totalDizimos = useMemo(
+    () =>
+      extracao.dizimos.reduce((soma, d) => soma + (Number(d.valor) || 0), 0),
+    [extracao.dizimos]
+  )
+
+  const totalDizimosOfertas = useMemo(
+    () => totalDizimos + subTotalCalculado,
+    [totalDizimos, subTotalCalculado]
+  )
+
+  // Total Geral é o mesmo valor de "Dízimos + Ofertas" — mantemos os dois
+  // em sincronia para gravar corretamente na coluna `total_geral`.
+  const totalGeralCalculado = totalDizimosOfertas
+
+  // Mantém `extracao.sub_total`/`extracao.total_geral` sempre espelhando os
+  // valores calculados, para que o payload enviado ao salvar já vá correto
+  // (o servidor recalcula de qualquer forma, mas a tela de revisão deve
+  // mostrar e enviar os números reais, nunca um valor digitado à mão).
+  useEffect(() => {
+    if (extracao.sub_total !== subTotalCalculado) {
+      atualizarCampo('sub_total', subTotalCalculado)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [subTotalCalculado])
+
+  useEffect(() => {
+    if (extracao.total_geral !== totalGeralCalculado) {
+      atualizarCampo('total_geral', totalGeralCalculado)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [totalGeralCalculado])
+
+  function aoEscolherArquivo(e: ChangeEvent<HTMLInputElement>) {
+    const f = e.target.files?.[0]
+    if (!f) return
+    setArquivo(f)
+    setErro(null)
+    if (f.type.startsWith('image/')) {
+      setPreviewUrl(URL.createObjectURL(f))
+    } else {
+      setPreviewUrl(null)
+    }
+  }
+
+  function limparCaptura() {
+    setArquivo(null)
+    setPreviewUrl(null)
+    setErro(null)
+    if (inputCameraRef.current) inputCameraRef.current.value = ''
+    if (inputArquivoRef.current) inputArquivoRef.current.value = ''
+  }
+
+  async function processarComIA() {
+    if (!arquivo) return
+    setEtapa('processando')
+    setErro(null)
+
+    try {
+      const imagemBase64 = await arquivoParaBase64(arquivo)
+
+      const { data, error } = await supabase.functions.invoke('processar-relatorio', {
+        body: {
+          imagem_base64: imagemBase64,
+          nome_arquivo: arquivo.name,
+          tipo_mime: arquivo.type || 'application/octet-stream',
+        },
+      })
+
+      if (error) throw error
+
+      const resultado = data as ExtracaoRelatorio
+      setExtracao({ ...extracaoVazia(), ...resultado })
+      setEtapa('revisao')
+    } catch (e) {
+      const mensagem = e instanceof Error ? e.message : 'Erro desconhecido ao processar o relatório.'
+      setErro('Não foi possível processar o relatório: ' + mensagem)
+      setEtapa('captura')
+    }
+  }
+
+  function atualizarCampo<K extends keyof ExtracaoRelatorio>(campo: K, valor: ExtracaoRelatorio[K]) {
+    setExtracao((atual) => ({ ...atual, [campo]: valor }))
+  }
+
+  function atualizarCampoNumerico(campo: keyof ExtracaoRelatorio, valorTexto: string) {
+    if (valorTexto === '') {
+      atualizarCampo(campo, null as never)
+      return
+    }
+    const valor = Number(valorTexto)
+    atualizarCampo(campo, (Number.isNaN(valor) ? null : valor) as never)
+  }
+
+  function adicionarDizimo() {
+    setExtracao((atual) => ({
+      ...atual,
+      dizimos: [...atual.dizimos, { nome: '', valor: 0 }],
+    }))
+  }
+
+  function atualizarDizimo(indice: number, parcial: Partial<DizimoRascunho>) {
+    setExtracao((atual) => ({
+      ...atual,
+      dizimos: atual.dizimos.map((d, i) => (i === indice ? { ...d, ...parcial } : d)),
+    }))
+  }
+
+  function removerDizimo(indice: number) {
+    setExtracao((atual) => ({
+      ...atual,
+      dizimos: atual.dizimos.filter((_, i) => i !== indice),
+    }))
+  }
+
+  function descartar() {
+    setEtapa('captura')
+    setExtracao(extracaoVazia())
+    limparCaptura()
+  }
+
+  /** Alternativa à foto/arquivo + IA: pula direto para a tela de revisão
+   *  com o formulário em branco, para digitação manual dos dados. */
+  function digitarManualmente() {
+    setErro(null)
+    limparCaptura()
+    setExtracao(extracaoVazia())
+    setEtapa('revisao')
+  }
+
+  async function confirmarESalvar() {
+    if (!session) return
+    setSalvando(true)
+    setErro(null)
+
+    try {
+      const payload = {
+        ...extracao,
+        dizimos: extracao.dizimos
+          .filter((d) => d.nome.trim() !== '')
+          .map((d) => ({ nome: d.nome.trim(), valor: d.valor ?? 0 })),
+      }
+
+      const { error } = await supabase.functions.invoke('salvar-relatorio', {
+        body: payload,
+      })
+
+      if (error) throw error
+
+      setEtapa('sucesso')
+    } catch (e) {
+      const mensagem = e instanceof Error ? e.message : 'Erro desconhecido ao salvar.'
+      setErro('Não foi possível salvar o relatório: ' + mensagem)
+    } finally {
+      setSalvando(false)
+    }
+  }
+
+  // ----------------------------------------------------------------
+  // ETAPA: captura
+  // ----------------------------------------------------------------
+  if (etapa === 'captura') {
+    return (
+      <div className="tela">
+        <div className="topo">
+          <div>
+            <img
+              src="/logo-reviver.svg"
+              alt="Comunidade Reviver em Cristo"
+              style={{ height: 32, display: 'block', marginBottom: 4 }}
+            />
+            <h1 style={{ margin: 0 }}>Capturar Relatório</h1>
+          </div>
+          <button className="btn-link" onClick={() => navigate('/')}>
+            Cancelar
+          </button>
+        </div>
+
+        {erro && <div className="mensagem-erro">{erro}</div>}
+
+        {previewUrl ? (
+          <img src={previewUrl} alt="Pré-visualização do relatório" className="preview-imagem" />
+        ) : arquivo ? (
+          <div className="card" style={{ textAlign: 'center' }}>
+            📄 {arquivo.name}
+          </div>
+        ) : (
+          <div className="card estado-vazio" style={{ padding: 24 }}>
+            Nenhum arquivo selecionado ainda.
+          </div>
+        )}
+
+        <div className="pilha" style={{ marginTop: 16 }}>
+          <input
+            ref={inputCameraRef}
+            type="file"
+            accept="image/*"
+            capture="environment"
+            onChange={aoEscolherArquivo}
+            style={{ display: 'none' }}
+          />
+          <button
+            className="btn btn-secundario"
+            onClick={() => inputCameraRef.current?.click()}
+          >
+            📷 Tirar Foto
+          </button>
+
+          <input
+            ref={inputArquivoRef}
+            type="file"
+            accept="image/*,application/pdf"
+            onChange={aoEscolherArquivo}
+            style={{ display: 'none' }}
+          />
+          <button
+            className="btn btn-secundario"
+            onClick={() => inputArquivoRef.current?.click()}
+          >
+            📁 Selecionar Arquivo
+          </button>
+
+          {arquivo && (
+            <button className="btn-link" onClick={limparCaptura}>
+              Remover seleção
+            </button>
+          )}
+
+          <button className="btn btn-secundario" onClick={digitarManualmente}>
+            ⌨️ Digitar
+          </button>
+        </div>
+
+        <div style={{ flex: 1 }} />
+
+        <button className="btn btn-primario" disabled={!arquivo} onClick={processarComIA}>
+          Processar com IA
+        </button>
+      </div>
+    )
+  }
+
+  // ----------------------------------------------------------------
+  // ETAPA: processando
+  // ----------------------------------------------------------------
+  if (etapa === 'processando') {
+    return (
+      <div className="tela-centralizada">
+        <div className="spinner" style={{ marginBottom: 16 }} />
+        <p>Lendo o relatório...</p>
+        <p style={{ color: 'var(--cor-texto-suave)', fontSize: '0.85rem' }}>
+          Isso pode levar alguns segundos.
+        </p>
+      </div>
+    )
+  }
+
+  // ----------------------------------------------------------------
+  // ETAPA: revisão
+  // ----------------------------------------------------------------
+  if (etapa === 'revisao') {
+    return (
+      <div className="tela">
+        <div className="topo">
+          <div>
+            <img
+              src="/logo-reviver.svg"
+              alt="Comunidade Reviver em Cristo"
+              style={{ height: 32, display: 'block', marginBottom: 4 }}
+            />
+            <h1 style={{ margin: 0 }}>Revisar Relatório</h1>
+          </div>
+        </div>
+
+        {erro && <div className="mensagem-erro">{erro}</div>}
+
+        {previewUrl && (
+          <img src={previewUrl} alt="Relatório original" className="miniatura-imagem" style={{ marginBottom: 8 }} />
+        )}
+
+        {extracao.alertas_revisao.length > 0 && (
+          <div className="card" style={{ background: 'var(--cor-alerta-fundo)', borderColor: 'var(--cor-alerta)', marginTop: 12 }}>
+            <strong style={{ color: '#92400e' }}>⚠️ Pontos para revisar:</strong>
+            <ul style={{ margin: '8px 0 0', paddingLeft: 18, color: '#92400e', fontSize: '0.85rem' }}>
+              {extracao.alertas_revisao.map((alerta, i) => (
+                <li key={i}>{alerta}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <div className="secao-titulo">Dados do Culto</div>
+        <div className="pilha">
+          {CAMPOS_TEXTO.map(({ campo, rotulo, tipo }) => (
+            <div
+              key={campo}
+              className={`campo ${alertasPorCampo.has(campo) ? 'alerta' : ''}`}
+            >
+              <label htmlFor={campo}>{rotulo}</label>
+              <input
+                id={campo}
+                type={tipo}
+                value={(extracao[campo] as string | null) ?? ''}
+                onChange={(e) => atualizarCampo(campo, e.target.value as never)}
+              />
+            </div>
+          ))}
+          <div className="linha">
+            {CAMPOS_NUMERICOS.map(({ campo, rotulo }) => (
+              <div
+                key={campo}
+                className={`campo ${alertasPorCampo.has(campo) ? 'alerta' : ''}`}
+                style={{ flex: 1 }}
+              >
+                <label htmlFor={campo}>{rotulo}</label>
+                <input
+                  id={campo}
+                  type="number"
+                  value={(extracao[campo] as number | null) ?? ''}
+                  onChange={(e) => atualizarCampoNumerico(campo, e.target.value)}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="secao-titulo">Movimento Financeiro</div>
+        <div className="pilha">
+          {CAMPOS_FINANCEIROS.map(({ campo, rotulo }) => (
+            <div
+              key={campo}
+              className={`campo ${alertasPorCampo.has(campo) ? 'alerta' : ''}`}
+            >
+              <label htmlFor={campo}>{rotulo} (R$)</label>
+              <input
+                id={campo}
+                type="number"
+                step="0.01"
+                value={(extracao[campo] as number | null) ?? ''}
+                onChange={(e) => atualizarCampoNumerico(campo, e.target.value)}
+              />
+            </div>
+          ))}
+
+          <div className="linha-detalhe" style={{ marginTop: 4 }}>
+            <span>Sub-Total (soma das ofertas acima)</span>
+            <strong>{formatarMoeda(subTotalCalculado)}</strong>
+          </div>
+        </div>
+
+        <div className="secao-titulo">Dízimos</div>
+        <div className="lista-dizimos">
+          {extracao.dizimos.map((d, i) => (
+            <div className="linha-dizimo" key={i}>
+              <input
+                type="text"
+                placeholder="Nome do dizimista"
+                value={d.nome}
+                onChange={(e) => atualizarDizimo(i, { nome: e.target.value })}
+              />
+              <input
+                type="number"
+                step="0.01"
+                placeholder="Valor"
+                value={d.valor ?? ''}
+                onChange={(e) =>
+                  atualizarDizimo(i, { valor: e.target.value === '' ? null : Number(e.target.value) })
+                }
+              />
+              <button className="botao-remover" onClick={() => removerDizimo(i)} aria-label="Remover dízimo">
+                ✕
+              </button>
+            </div>
+          ))}
+          <button className="btn btn-secundario" onClick={adicionarDizimo}>
+            + Adicionar Dízimo
+          </button>
+        </div>
+
+        <div className="secao-titulo">Totais Calculados</div>
+        <div className="card" style={{ marginBottom: 16 }}>
+          <div className="linha-detalhe">
+            <span>Total de Dízimos</span>
+            <strong>{formatarMoeda(totalDizimos)}</strong>
+          </div>
+          <div className="linha-detalhe" style={{ marginTop: 6 }}>
+            <span>Total Dízimos + Ofertas</span>
+            <strong>{formatarMoeda(totalDizimosOfertas)}</strong>
+          </div>
+          <p style={{ color: 'var(--cor-texto-suave)', fontSize: '0.8rem', margin: '8px 0 0' }}>
+            Calculado automaticamente: dízimos lançados + sub-total das ofertas.
+          </p>
+        </div>
+
+        <div className="secao-titulo">Total Geral</div>
+        <div className="card">
+          <div className="linha-detalhe">
+            <span>Total Geral (R$)</span>
+            <strong>{formatarMoeda(totalGeralCalculado)}</strong>
+          </div>
+          <p style={{ color: 'var(--cor-texto-suave)', fontSize: '0.8rem', margin: '8px 0 0' }}>
+            Sub-Total das ofertas + Total de Dízimos. Não é digitado manualmente.
+          </p>
+        </div>
+
+        <div className="pilha" style={{ marginTop: 24 }}>
+          <button className="btn btn-primario" disabled={salvando} onClick={confirmarESalvar}>
+            {salvando ? 'Salvando...' : 'Confirmar e Salvar'}
+          </button>
+          <button className="btn btn-perigo" disabled={salvando} onClick={descartar}>
+            Descartar
+          </button>
+        </div>
+      </div>
+    )
+  }
+
+  // ----------------------------------------------------------------
+  // ETAPA: sucesso
+  // ----------------------------------------------------------------
+  return (
+    <div className="tela-centralizada">
+      <div className="icone-sucesso">✓</div>
+      <h2 style={{ margin: '0 0 8px' }}>Relatório salvo com sucesso!</h2>
+      <p style={{ color: 'var(--cor-texto-suave)', marginBottom: 24 }}>
+        Os dados foram registrados e o pastor foi notificado.
+      </p>
+      <div className="pilha" style={{ width: '100%', maxWidth: 320 }}>
+        <button className="btn btn-primario" onClick={descartar}>
+          Capturar Outro
+        </button>
+        <button className="btn btn-secundario" onClick={() => navigate('/')}>
+          Voltar ao Início
+        </button>
+      </div>
+    </div>
+  )
+}

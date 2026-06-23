@@ -1,1 +1,155 @@
-{"data":"aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JwppbXBvcnQgeyBMaW5rIH0gZnJvbSAncmVhY3Qtcm91dGVyLWRvbScKaW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICcuLi9saWIvc3VwYWJhc2UnCmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICcuLi9jb250ZXh0L0F1dGhDb250ZXh0JwppbXBvcnQgdHlwZSB7IFJlbGF0b3Jpb0N1bHRvIH0gZnJvbSAnLi4vdHlwZXMvZGF0YWJhc2UnCmltcG9ydCB7IHVzZVB1c2hTdWJzY3JpcHRpb24gfSBmcm9tICcuLi9ob29rcy91c2VQdXNoU3Vic2NyaXB0aW9uJwoKZnVuY3Rpb24gZm9ybWF0YXJNb2VkYSh2YWxvcjogbnVtYmVyIHwgbnVsbCkgewogIGlmICh2YWxvciA9PT0gbnVsbCB8fCB2YWxvciA9PT0gdW5kZWZpbmVkKSByZXR1cm4gJ+KAlCcKICByZXR1cm4gdmFsb3IudG9Mb2NhbGVTdHJpbmcoJ3B0LUJSJywgeyBzdHlsZTogJ2N1cnJlbmN5JywgY3VycmVuY3k6ICdCUkwnIH0pCn0KCmZ1bmN0aW9uIGZvcm1hdGFyRGF0YShkYXRhOiBzdHJpbmcgfCBudWxsKSB7CiAgaWYgKCFkYXRhKSByZXR1cm4gJ+KAlCcKICBjb25zdCBbYW5vLCBtZXMsIGRpYV0gPSBkYXRhLnNwbGl0KCctJykKICBpZiAoIWFubyB8fCAhbWVzIHx8ICFkaWEpIHJldHVybiBkYXRhCiAgcmV0dXJuIGAke2RpYX0vJHttZXN9LyR7YW5vfWAKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRGFzaGJvYXJkKCkgewogIGNvbnN0IHsgdXN1YXJpbywgcGFwZWwsIHNhaXIgfSA9IHVzZUF1dGgoKQogIGNvbnN0IFtyZWxhdG9yaW9zLCBzZXRSZWxhdG9yaW9zXSA9IHVzZVN0YXRlPFJlbGF0b3Jpb0N1bHRvW10+KFtdKQogIGNvbnN0IFtjYXJyZWdhbmRvLCBzZXRDYXJyZWdhbmRvXSA9IHVzZVN0YXRlKHRydWUpCiAgY29uc3QgW2Vycm8sIHNldEVycm9dID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCkKICBjb25zdCBbYnVzY2FQcmVnYWRvciwgc2V0QnVzY2FQcmVnYWRvcl0gPSB1c2VTdGF0ZSgnJykKICBjb25zdCBbYnVzY2FEYXRhLCBzZXRCdXNjYURhdGFdID0gdXNlU3RhdGUoJycpCgogIC8vIEdhcmFudGUgYSBpbnNjcmnDp8OjbyBlbSBwdXNoIGFzc2ltIHF1ZSBob3V2ZXIgdW0gdXN1w6FyaW8gbG9nYWRvLgogIHVzZVB1c2hTdWJzY3JpcHRpb24oKQoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgbGV0IGF0aXZvID0gdHJ1ZQoKICAgIGFzeW5jIGZ1bmN0aW9uIGNhcnJlZ2FyKCkgewogICAgICBzZXRDYXJyZWdhbmRvKHRydWUpCiAgICAgIHNldEVycm8obnVsbCkKCiAgICAgIGxldCBxdWVyeSA9IHN1cGFiYXNlCiAgICAgICAgLmZyb20oJ3JlbGF0b3Jpb3NfY3VsdG9zJykKICAgICAgICAuc2VsZWN0KCcqJykKICAgICAgICAub3JkZXIoJ2RhdGFfY3VsdG8nLCB7IGFzY2VuZGluZzogZmFsc2UgfSkKICAgICAgICAubGltaXQoMTAwKQoKICAgICAgaWYgKGJ1c2NhUHJlZ2Fkb3IudHJpbSgpKSB7CiAgICAgICAgcXVlcnkgPSBxdWVyeS5pbGlrZSgncHJlZ2Fkb3InLCBgJSR7YnVzY2FQcmVnYWRvci50cmltKCl9JWApCiAgICAgIH0KICAgICAgaWYgKGJ1c2NhRGF0YSkgewogICAgICAgIHF1ZXJ5ID0gcXVlcnkuZXEoJ2RhdGFfY3VsdG8nLCBidXNjYURhdGEpCiAgICAgIH0KCiAgICAgIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHF1ZXJ5CgogICAgICBpZiAoIWF0aXZvKSByZXR1cm4KCiAgICAgIGlmIChlcnJvcikgewogICAgICAgIHNldEVycm8oJ07Do28gZm9pIHBvc3PDrXZlbCBjYXJyZWdhciBvcyByZWxhdMOzcmlvczogJyArIGVycm9yLm1lc3NhZ2UpCiAgICAgIH0gZWxzZSB7CiAgICAgICAgc2V0UmVsYXRvcmlvcygoZGF0YSBhcyBSZWxhdG9yaW9DdWx0b1tdKSA/PyBbXSkKICAgICAgfQogICAgICBzZXRDYXJyZWdhbmRvKGZhbHNlKQogICAgfQoKICAgIGNhcnJlZ2FyKCkKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIGF0aXZvID0gZmFsc2UKICAgIH0KICB9LCBbYnVzY2FQcmVnYWRvciwgYnVzY2FEYXRhXSkKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZWxhIj4KICAgICAgPGRpdiBjbGFzc05hbWU9InRvcG8iPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8aW1nCiAgICAgICAgICAgIHNyYz0iL2xvZ28tcmV2aXZlci5zdmciCiAgICAgICAgICAgIGFsdD0iQ29tdW5pZGFkZSBSZXZpdmVyIGVtIENyaXN0byIKICAgICAgICAgICAgc3R5bGU9e3sgaGVpZ2h0OiAzOCwgZGlzcGxheTogJ2Jsb2NrJywgbWFyZ2luQm90dG9tOiA0IH19CiAgICAgICAgICAvPgogICAgICAgICAge3VzdWFyaW8gJiYgKAogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImNyYWNow6EtcGFwZWwiPgogICAgICAgICAgICAgIHtwYXBlbCA9PT0gJ2FkbWluJyA/ICdBZG1pbmlzdHJhZG9yJyA6ICdPYnJlaXJvJ30gwrcge3VzdWFyaW8ubm9tZX0KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT0iYnRuLWxpbmsiIG9uQ2xpY2s9e3NhaXJ9PgogICAgICAgICAgU2FpcgogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIDxMaW5rIHRvPSIvY2FwdHVyYSIgY2xhc3NOYW1lPSJidG4gYnRuLXByaW1hcmlvIiBzdHlsZT17eyBtYXJnaW5Cb3R0b206IDIwIH19PgogICAgICAgICsgQ2FwdHVyYXIgTm92byBSZWxhdMOzcmlvCiAgICAgIDwvTGluaz4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJsaW5oYSIgc3R5bGU9e3sgbWFyZ2luQm90dG9tOiA0IH19PgogICAgICAgIDxpbnB1dAogICAgICAgICAgY2xhc3NOYW1lPSJidXNjYS1pbnB1dCIKICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICBwbGFjZWhvbGRlcj0iQnVzY2FyIHBvciBwcmVnYWRvci4uLiIKICAgICAgICAgIHZhbHVlPXtidXNjYVByZWdhZG9yfQogICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRCdXNjYVByZWdhZG9yKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAvPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImxpbmhhIj4KICAgICAgICA8aW5wdXQKICAgICAgICAgIGNsYXNzTmFtZT0iYnVzY2EtaW5wdXQiCiAgICAgICAgICB0eXBlPSJkYXRlIgogICAgICAgICAgdmFsdWU9e2J1c2NhRGF0YX0KICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0QnVzY2FEYXRhKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAvPgogICAgICAgIHtidXNjYURhdGEgJiYgKAogICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9ImJ0bi1saW5rIiBvbkNsaWNrPXsoKSA9PiBzZXRCdXNjYURhdGEoJycpfT4KICAgICAgICAgICAgTGltcGFyCiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICApfQogICAgICA8L2Rpdj4KCiAgICAgIHtlcnJvICYmIDxkaXYgY2xhc3NOYW1lPSJtZW5zYWdlbS1lcnJvIj57ZXJyb308L2Rpdj59CgogICAgICB7Y2FycmVnYW5kbyA/ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGVsYS1jZW50cmFsaXphZGEiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwaW5uZXIiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICkgOiByZWxhdG9yaW9zLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZXN0YWRvLXZhemlvIj4KICAgICAgICAgIE5lbmh1bSByZWxhdMOzcmlvIGVuY29udHJhZG8uCiAgICAgICAgICA8YnIgLz4KICAgICAgICAgIFRvcXVlIGVtICJDYXB0dXJhciBOb3ZvIFJlbGF0w7NyaW8iIHBhcmEgbGFuw6dhciBvIHByaW1laXJvLgogICAgICAgIDwvZGl2PgogICAgICApIDogKAogICAgICAgIDx1bCBjbGFzc05hbWU9Imxpc3RhLXJlbGF0b3Jpb3MiPgogICAgICAgICAge3JlbGF0b3Jpb3MubWFwKChyKSA9PiAoCiAgICAgICAgICAgIDxsaSBrZXk9e3IuaWR9PgogICAgICAgICAgICAgIDxMaW5rIHRvPXtgL3JlbGF0b3Jpby8ke3IuaWR9YH0gY2xhc3NOYW1lPSJpdGVtLXJlbGF0b3JpbyI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGluaGEtdG9wbyI+CiAgICAgICAgICAgICAgICAgIDxzcGFuPntmb3JtYXRhckRhdGEoci5kYXRhX2N1bHRvKX08L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuPntmb3JtYXRhck1vZWRhKHIudG90YWxfZ2VyYWwpfTwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxpbmhhLWRldGFsaGUiPgogICAgICAgICAgICAgICAgICA8c3Bhbj57ci5wcmVnYWRvciA/PyAnUHJlZ2Fkb3IgbsOjbyBpbmZvcm1hZG8nfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPHNwYW4+e3IuZGlhX3NlbWFuYSA/PyAnJ308L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsaW5oYS1kZXRhbGhlIiBzdHlsZT17eyBmb250U2l6ZTogJzAuOHJlbScsIGNvbG9yOiAndmFyKC0tY29yLXRleHRvLXN1YXZlKScgfX0+CiAgICAgICAgICAgICAgICAgIDxzcGFuPkTDrXppbW9zOiB7Zm9ybWF0YXJNb2VkYShyLnRvdGFsX2Rpemltb3MpfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPHNwYW4+RMOtemltb3MgKyBPZmVydGFzOiB7Zm9ybWF0YXJNb2VkYShyLnRvdGFsX2Rpemltb3Nfb2ZlcnRhcyl9PC9zcGFuPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICA8L2xpPgogICAgICAgICAgKSl9CiAgICAgICAgPC91bD4KICAgICAgKX0KICAgIDwvZGl2PgogICkKfQo="}
+import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+import { supabase } from '../lib/supabase'
+import { useAuth } from '../context/AuthContext'
+import type { RelatorioCulto } from '../types/database'
+import { usePushSubscription } from '../hooks/usePushSubscription'
+
+function formatarMoeda(valor: number | null) {
+  if (valor === null || valor === undefined) return '—'
+  return valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
+}
+
+function formatarData(data: string | null) {
+  if (!data) return '—'
+  const [ano, mes, dia] = data.split('-')
+  if (!ano || !mes || !dia) return data
+  return `${dia}/${mes}/${ano}`
+}
+
+export default function Dashboard() {
+  const { usuario, papel, sair } = useAuth()
+  const [relatorios, setRelatorios] = useState<RelatorioCulto[]>([])
+  const [carregando, setCarregando] = useState(true)
+  const [erro, setErro] = useState<string | null>(null)
+  const [buscaPregador, setBuscaPregador] = useState('')
+  const [buscaData, setBuscaData] = useState('')
+
+  // Garante a inscrição em push assim que houver um usuário logado.
+  usePushSubscription()
+
+  useEffect(() => {
+    let ativo = true
+
+    async function carregar() {
+      setCarregando(true)
+      setErro(null)
+
+      let query = supabase
+        .from('relatorios_cultos')
+        .select('*')
+        .order('data_culto', { ascending: false })
+        .limit(100)
+
+      if (buscaPregador.trim()) {
+        query = query.ilike('pregador', `%${buscaPregador.trim()}%`)
+      }
+      if (buscaData) {
+        query = query.eq('data_culto', buscaData)
+      }
+
+      const { data, error } = await query
+
+      if (!ativo) return
+
+      if (error) {
+        setErro('Não foi possível carregar os relatórios: ' + error.message)
+      } else {
+        setRelatorios((data as RelatorioCulto[]) ?? [])
+      }
+      setCarregando(false)
+    }
+
+    carregar()
+    return () => {
+      ativo = false
+    }
+  }, [buscaPregador, buscaData])
+
+  return (
+    <div className="tela">
+      <div className="topo">
+        <div>
+          <img
+            src="/logo-reviver.svg"
+            alt="Comunidade Reviver em Cristo"
+            style={{ height: 38, display: 'block', marginBottom: 4 }}
+          />
+          {usuario && (
+            <span className="crachá-papel">
+              {papel === 'admin' ? 'Administrador' : 'Obreiro'} · {usuario.nome}
+            </span>
+          )}
+        </div>
+        <button className="btn-link" onClick={sair}>
+          Sair
+        </button>
+      </div>
+
+      <Link to="/captura" className="btn btn-primario" style={{ marginBottom: 10 }}>
+        + Capturar Novo Relatório
+      </Link>
+      <Link to="/financeiro" className="btn btn-secundario" style={{ marginBottom: 20 }}>
+        💰 Financeiro
+      </Link>
+
+      <div className="linha" style={{ marginBottom: 4 }}>
+        <input
+          className="busca-input"
+          type="text"
+          placeholder="Buscar por pregador..."
+          value={buscaPregador}
+          onChange={(e) => setBuscaPregador(e.target.value)}
+        />
+      </div>
+      <div className="linha">
+        <input
+          className="busca-input"
+          type="date"
+          value={buscaData}
+          onChange={(e) => setBuscaData(e.target.value)}
+        />
+        {buscaData && (
+          <button className="btn-link" onClick={() => setBuscaData('')}>
+            Limpar
+          </button>
+        )}
+      </div>
+
+      {erro && <div className="mensagem-erro">{erro}</div>}
+
+      {carregando ? (
+        <div className="tela-centralizada">
+          <div className="spinner" />
+        </div>
+      ) : relatorios.length === 0 ? (
+        <div className="estado-vazio">
+          Nenhum relatório encontrado.
+          <br />
+          Toque em "Capturar Novo Relatório" para lançar o primeiro.
+        </div>
+      ) : (
+        <ul className="lista-relatorios">
+          {relatorios.map((r) => (
+            <li key={r.id}>
+              <Link to={`/relatorio/${r.id}`} className="item-relatorio">
+                <div className="linha-topo">
+                  <span>{formatarData(r.data_culto)}</span>
+                  <span>{formatarMoeda(r.total_geral)}</span>
+                </div>
+                <div className="linha-detalhe">
+                  <span>{r.pregador ?? 'Pregador não informado'}</span>
+                  <span>{r.dia_semana ?? ''}</span>
+                </div>
+                <div className="linha-detalhe" style={{ fontSize: '0.8rem', color: 'var(--cor-texto-suave)' }}>
+                  <span>Dízimos: {formatarMoeda(r.total_dizimos)}</span>
+                  <span>Dízimos + Ofertas: {formatarMoeda(r.total_dizimos_ofertas)}</span>
+                </div>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  )
+}
