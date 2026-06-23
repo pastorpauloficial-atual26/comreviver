@@ -1,1 +1,21 @@
-{"data":"aW1wb3J0IHR5cGUgeyBSZWFjdE5vZGUgfSBmcm9tICdyZWFjdCcKaW1wb3J0IHsgTmF2aWdhdGUgfSBmcm9tICdyZWFjdC1yb3V0ZXItZG9tJwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAnLi4vY29udGV4dC9BdXRoQ29udGV4dCcKCmV4cG9ydCBmdW5jdGlvbiBQcm90ZWN0ZWRSb3V0ZSh7IGNoaWxkcmVuIH06IHsgY2hpbGRyZW46IFJlYWN0Tm9kZSB9KSB7CiAgY29uc3QgeyBzZXNzaW9uLCBjYXJyZWdhbmRvIH0gPSB1c2VBdXRoKCkKCiAgaWYgKGNhcnJlZ2FuZG8pIHsKICAgIHJldHVybiAoCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZWxhLWNlbnRyYWxpemFkYSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwaW5uZXIiIC8+CiAgICAgIDwvZGl2PgogICAgKQogIH0KCiAgaWYgKCFzZXNzaW9uKSB7CiAgICByZXR1cm4gPE5hdmlnYXRlIHRvPSIvbG9naW4iIHJlcGxhY2UgLz4KICB9CgogIHJldHVybiA8PntjaGlsZHJlbn08Lz4KfQo="}
+import type { ReactNode } from 'react'
+import { Navigate } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext'
+
+export function ProtectedRoute({ children }: { children: ReactNode }) {
+  const { session, carregando } = useAuth()
+
+  if (carregando) {
+    return (
+      <div className="tela-centralizada">
+        <div className="spinner" />
+      </div>
+    )
+  }
+
+  if (!session) {
+    return <Navigate to="/login" replace />
+  }
+
+  return <>{children}</>
+}
