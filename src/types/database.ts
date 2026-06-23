@@ -1,1 +1,140 @@
-{"data":"Ly8gVGlwb3MgcXVlIGVzcGVsaGFtIG8gc2NoZW1hIGRlZmluaWRvIGVtIGRvY3MvMDEtc2NoZW1hLXN1cGFiYXNlLnNxbC4KLy8gTWFudGVuaGEgZXN0ZSBhcnF1aXZvIGVtIHNpbmNyb25pYSBzZSBvIHNjaGVtYSBmb3IgYWx0ZXJhZG8uCgpleHBvcnQgdHlwZSBQYXBlbCA9ICdhZG1pbicgfCAnb2JyZWlybycKCmV4cG9ydCBpbnRlcmZhY2UgVXN1YXJpbyB7CiAgaWQ6IHN0cmluZwogIG5vbWU6IHN0cmluZwogIHBhcGVsOiBQYXBlbAogIGNyaWFkb19lbTogc3RyaW5nCn0KCmV4cG9ydCBpbnRlcmZhY2UgRGl6aW1vIHsKICBpZDogc3RyaW5nCiAgcmVsYXRvcmlvX2lkOiBzdHJpbmcKICBub21lX2RpemltaXN0YTogc3RyaW5nCiAgdmFsb3I6IG51bWJlcgogIGNyaWFkb19lbTogc3RyaW5nCn0KCmV4cG9ydCBpbnRlcmZhY2UgUmVsYXRvcmlvQ3VsdG8gewogIGlkOiBzdHJpbmcKCiAgZGlhX3NlbWFuYTogc3RyaW5nIHwgbnVsbAogIGRhdGFfY3VsdG86IHN0cmluZyB8IG51bGwKICBob3JhcmlvOiBzdHJpbmcgfCBudWxsCiAgdG90YWxfdmlzaXRhczogbnVtYmVyIHwgbnVsbAogIHRvdGFsX3ByZXNlbmNhczogbnVtYmVyIHwgbnVsbAogIGRpcmlnZW50ZTogc3RyaW5nIHwgbnVsbAogIHByZWdhZG9yOiBzdHJpbmcgfCBudWxsCiAgcmVzcF9yZWxhdG9yaW86IHN0cmluZyB8IG51bGwKCiAgb2ZlcnRhc19wcmltaWNpYXM6IG51bWJlciB8IG51bGwKICBvZmVydGFzX2dlcmFpczogbnVtYmVyIHwgbnVsbAogIG9mZXJ0YXNfcmFkaW86IG51bWJlciB8IG51bGwKICB2b3Rvc19iZW5jYW9zOiBudW1iZXIgfCBudWxsCiAgY2FtcGFuaGFzOiBudW1iZXIgfCBudWxsCiAgc3ViX3RvdGFsOiBudW1iZXIgfCBudWxsCgogIHRvdGFsX2dlcmFsOiBudW1iZXIgfCBudWxsCgogIC8vIENhbGN1bGFkb3MgcGVsYSBFZGdlIEZ1bmN0aW9uIGBzYWx2YXItcmVsYXRvcmlvYCBubyBtb21lbnRvIGRvIHNhdmUuCiAgdG90YWxfZGl6aW1vczogbnVtYmVyIHwgbnVsbAogIHRvdGFsX2Rpemltb3Nfb2ZlcnRhczogbnVtYmVyIHwgbnVsbAoKICBhcnF1aXZvX3VybDogc3RyaW5nIHwgbnVsbAogIHRleHRvX2NvbXBsZXRvX29jcjogc3RyaW5nIHwgbnVsbAoKICBjcmlhZG9fcG9yOiBzdHJpbmcKICBjcmlhZG9fZW06IHN0cmluZwogIGF0dWFsaXphZG9fZW06IHN0cmluZwp9CgovLyBJdGVtIGRlIGTDrXppbW8gYWluZGEgbsOjbyBzYWx2byAoc2VtIGlkL3JlbGF0b3Jpb19pZCksIHVzYWRvIG5vIGZvcm11bMOhcmlvCi8vIGRlIHJldmlzw6NvIGFudGVzIGRhIGNvbmZpcm1hw6fDo28uCmV4cG9ydCBpbnRlcmZhY2UgRGl6aW1vUmFzY3VuaG8gewogIG5vbWU6IHN0cmluZwogIHZhbG9yOiBudW1iZXIgfCBudWxsCn0KCi8vIEZvcm1hdG8gcmV0b3JuYWRvIHBlbGEgRWRnZSBGdW5jdGlvbiBgcHJvY2Vzc2FyLXJlbGF0b3Jpb2AsIGVzcGVsaGFuZG8gbwovLyBzY2hlbWEgZGUgc2HDrWRhIGRlZmluaWRvIGVtIGRvY3MvMDItcHJvbXB0LWV4dHJhY2FvLWNsYXVkZS5tZC4KZXhwb3J0IGludGVyZmFjZSBFeHRyYWNhb1JlbGF0b3JpbyB7CiAgZGlhX3NlbWFuYTogc3RyaW5nIHwgbnVsbAogIGRhdGFfY3VsdG86IHN0cmluZyB8IG51bGwKICBob3JhcmlvOiBzdHJpbmcgfCBudWxsCiAgdG90YWxfdmlzaXRhczogbnVtYmVyIHwgbnVsbAogIHRvdGFsX3ByZXNlbmNhczogbnVtYmVyIHwgbnVsbAogIGRpcmlnZW50ZTogc3RyaW5nIHwgbnVsbAogIHByZWdhZG9yOiBzdHJpbmcgfCBudWxsCiAgcmVzcF9yZWxhdG9yaW86IHN0cmluZyB8IG51bGwKCiAgb2ZlcnRhc19wcmltaWNpYXM6IG51bWJlciB8IG51bGwKICBvZmVydGFzX2dlcmFpczogbnVtYmVyIHwgbnVsbAogIG9mZXJ0YXNfcmFkaW86IG51bWJlciB8IG51bGwKICB2b3Rvc19iZW5jYW9zOiBudW1iZXIgfCBudWxsCiAgY2FtcGFuaGFzOiBudW1iZXIgfCBudWxsCiAgc3ViX3RvdGFsOiBudW1iZXIgfCBudWxsCgogIGRpemltb3M6IERpemltb1Jhc2N1bmhvW10KCiAgdG90YWxfZ2VyYWw6IG51bWJlciB8IG51bGwKCiAgdGV4dG9fY29tcGxldG9fb2NyOiBzdHJpbmcKCiAgYWxlcnRhc19yZXZpc2FvOiBzdHJpbmdbXQoKICAvLyBQcmVlbmNoaWRvIHBlbGEgRWRnZSBGdW5jdGlvbiBhcMOzcyBvIHVwbG9hZCBwYXJhIG8gU3RvcmFnZQogIGFycXVpdm9fdXJsPzogc3RyaW5nIHwgbnVsbAp9CgovLyBDYW1wb3MgZG8gcmVsYXTDs3JpbyBxdWUgZGlzcGFyYW0gdW0gYWxlcnRhIHZpc3VhbCBxdWFuZG8gY2l0YWRvcyBlbQovLyBgYWxlcnRhc19yZXZpc2FvYCAoaGV1csOtc3RpY2Egc2ltcGxlcyBiYXNlYWRhIGVtIHBhbGF2cmFzLWNoYXZlIGVtIFBULUJSKS4KZXhwb3J0IGNvbnN0IENBTVBPX1BBUkFfQUxFUlRBOiBSZWNvcmQ8c3RyaW5nLCAoa2V5b2YgRXh0cmFjYW9SZWxhdG9yaW8pW10+ID0gewogICdkaWEgZGEgc2VtYW5hJzogWydkaWFfc2VtYW5hJ10sCiAgZGF0YTogWydkYXRhX2N1bHRvJ10sCiAgaG9yw6FyaW86IFsnaG9yYXJpbyddLAogIHZpc2l0YXM6IFsndG90YWxfdmlzaXRhcyddLAogIHByZXNlbsOnYXM6IFsndG90YWxfcHJlc2VuY2FzJ10sCiAgZGlyaWdlbnRlOiBbJ2RpcmlnZW50ZSddLAogIHByZWdhZG9yOiBbJ3ByZWdhZG9yJ10sCiAgcHJpbcOtY2lhczogWydvZmVydGFzX3ByaW1pY2lhcyddLAogICdvZmVydGFzIGdlcmFpcyc6IFsnb2ZlcnRhc19nZXJhaXMnXSwKICByw6FkaW86IFsnb2ZlcnRhc19yYWRpbyddLAogICd2b3RvcyBlIGLDqm7Dp8Ojb3MnOiBbJ3ZvdG9zX2JlbmNhb3MnXSwKICBjYW1wYW5oYXM6IFsnY2FtcGFuaGFzJ10sCiAgJ3N1Yi10b3RhbCc6IFsnc3ViX3RvdGFsJ10sCiAgJ3RvdGFsIGdlcmFsJzogWyd0b3RhbF9nZXJhbCddLAp9Cg=="}
+// Tipos que espelham o schema definido em docs/01-schema-supabase.sql.
+// Mantenha este arquivo em sincronia se o schema for alterado.
+
+export type Papel = 'admin' | 'obreiro'
+
+export interface Usuario {
+  id: string
+  nome: string
+  papel: Papel
+  criado_em: string
+}
+
+export interface Dizimo {
+  id: string
+  relatorio_id: string
+  nome_dizimista: string
+  valor: number
+  criado_em: string
+}
+
+export interface RelatorioCulto {
+  id: string
+
+  dia_semana: string | null
+  data_culto: string | null
+  horario: string | null
+  total_visitas: number | null
+  total_presencas: number | null
+  dirigente: string | null
+  pregador: string | null
+  resp_relatorio: string | null
+
+  ofertas_primicias: number | null
+  ofertas_gerais: number | null
+  ofertas_radio: number | null
+  votos_bencaos: number | null
+  campanhas: number | null
+  sub_total: number | null
+
+  total_geral: number | null
+
+  // Calculados pela Edge Function `salvar-relatorio` no momento do save.
+  total_dizimos: number | null
+  total_dizimos_ofertas: number | null
+
+  arquivo_url: string | null
+  texto_completo_ocr: string | null
+
+  criado_por: string
+  criado_em: string
+  atualizado_em: string
+}
+
+// Item de dízimo ainda não salvo (sem id/relatorio_id), usado no formulário
+// de revisão antes da confirmação.
+export interface DizimoRascunho {
+  nome: string
+  valor: number | null
+}
+
+// Formato retornado pela Edge Function `processar-relatorio`, espelhando o
+// schema de saída definido em docs/02-prompt-extracao-claude.md.
+export interface ExtracaoRelatorio {
+  dia_semana: string | null
+  data_culto: string | null
+  horario: string | null
+  total_visitas: number | null
+  total_presencas: number | null
+  dirigente: string | null
+  pregador: string | null
+  resp_relatorio: string | null
+
+  ofertas_primicias: number | null
+  ofertas_gerais: number | null
+  ofertas_radio: number | null
+  votos_bencaos: number | null
+  campanhas: number | null
+  sub_total: number | null
+
+  dizimos: DizimoRascunho[]
+
+  total_geral: number | null
+
+  texto_completo_ocr: string
+
+  alertas_revisao: string[]
+
+  // Preenchido pela Edge Function após o upload para o Storage
+  arquivo_url?: string | null
+}
+
+// ------------------------------------------------------------
+// FINANCEIRO — Extratos, Despesas e Resumo
+// ------------------------------------------------------------
+
+export type OrigemMovimento = 'extrato' | 'despesa'
+export type TipoMovimento = 'entrada' | 'saida'
+
+export interface MovimentoFinanceiro {
+  id: string
+  origem: OrigemMovimento
+  tipo: TipoMovimento
+  categoria: string | null
+  descricao: string | null
+  valor: number
+  data_movimento: string
+  arquivo_url: string
+  nome_arquivo: string | null
+  tipo_mime: string | null
+  criado_por: string
+  criado_em: string
+  atualizado_em: string
+}
+
+// Retorno da RPC `resumo_financeiro` — já respeita RLS (obreiro vê só o
+// próprio resumo, admin vê o resumo geral).
+export interface ResumoFinanceiro {
+  total_entradas: number
+  total_saidas: number
+  saldo: number
+}
+
+// Campos do relatório que disparam um alerta visual quando citados em
+// `alertas_revisao` (heurística simples baseada em palavras-chave em PT-BR).
+export const CAMPO_PARA_ALERTA: Record<string, (keyof ExtracaoRelatorio)[]> = {
+  'dia da semana': ['dia_semana'],
+  data: ['data_culto'],
+  horário: ['horario'],
+  visitas: ['total_visitas'],
+  presenças: ['total_presencas'],
+  dirigente: ['dirigente'],
+  pregador: ['pregador'],
+  primícias: ['ofertas_primicias'],
+  'ofertas gerais': ['ofertas_gerais'],
+  rádio: ['ofertas_radio'],
+  'votos e bênçãos': ['votos_bencaos'],
+  campanhas: ['campanhas'],
+  'sub-total': ['sub_total'],
+  'total geral': ['total_geral'],
+}
