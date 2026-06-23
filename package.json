@@ -1,1 +1,29 @@
-{"data":"ewogICJuYW1lIjogInJldml2ZXItcmVsYXRvcmlvcyIsCiAgInByaXZhdGUiOiB0cnVlLAogICJ2ZXJzaW9uIjogIjEuMC4wIiwKICAiZGVzY3JpcHRpb24iOiAiUFdBIGRlIGNhcHR1cmEgZSBleHRyYcOnw6NvIGRlIHJlbGF0w7NyaW9zIGRlIGN1bHRvIOKAlCBDb211bmlkYWRlIFJldml2ZXIgZW0gQ3Jpc3RvIiwKICAidHlwZSI6ICJtb2R1bGUiLAogICJzY3JpcHRzIjogewogICAgImRldiI6ICJ2aXRlIiwKICAgICJidWlsZCI6ICJ0c2MgLWIgJiYgdml0ZSBidWlsZCIsCiAgICAicHJldmlldyI6ICJ2aXRlIHByZXZpZXciLAogICAgImxpbnQiOiAidHNjIC0tbm9FbWl0IgogIH0sCiAgImRlcGVuZGVuY2llcyI6IHsKICAgICJAc3VwYWJhc2Uvc3VwYWJhc2UtanMiOiAiXjIuNDUuNCIsCiAgICAianNwZGYiOiAiXjIuNS4yIiwKICAgICJyZWFjdCI6ICJeMTguMy4xIiwKICAgICJyZWFjdC1kb20iOiAiXjE4LjMuMSIsCiAgICAicmVhY3Qtcm91dGVyLWRvbSI6ICJeNi4yNy4wIgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAdHlwZXMvcmVhY3QiOiAiXjE4LjMuMTIiLAogICAgIkB0eXBlcy9yZWFjdC1kb20iOiAiXjE4LjMuMSIsCiAgICAiQHZpdGVqcy9wbHVnaW4tcmVhY3QiOiAiXjQuMy4zIiwKICAgICJ0eXBlc2NyaXB0IjogIl41LjYuMyIsCiAgICAidml0ZSI6ICJeNS40LjEwIiwKICAgICJ2aXRlLXBsdWdpbi1wd2EiOiAiXjAuMjAuNSIsCiAgICAid29ya2JveC1wcmVjYWNoaW5nIjogIl43LjEuMCIKICB9Cn0K"}
+{
+  "name": "reviver-relatorios",
+  "private": true,
+  "version": "1.0.0",
+  "description": "PWA de captura e extração de relatórios de culto — Comunidade Reviver em Cristo",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "jspdf": "^2.5.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vite-plugin-pwa": "^0.20.5",
+    "workbox-precaching": "^7.1.0"
+  }
+}
