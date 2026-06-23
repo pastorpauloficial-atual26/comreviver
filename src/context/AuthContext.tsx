@@ -1,1 +1,119 @@
-{"data":"aW1wb3J0IHsKICBjcmVhdGVDb250ZXh0LAogIHVzZUNvbnRleHQsCiAgdXNlRWZmZWN0LAogIHVzZVN0YXRlLAogIHR5cGUgUmVhY3ROb2RlLAp9IGZyb20gJ3JlYWN0JwppbXBvcnQgdHlwZSB7IFNlc3Npb24gfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnCmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAnLi4vbGliL3N1cGFiYXNlJwppbXBvcnQgdHlwZSB7IFBhcGVsLCBVc3VhcmlvIH0gZnJvbSAnLi4vdHlwZXMvZGF0YWJhc2UnCgppbnRlcmZhY2UgQXV0aFN0YXRlIHsKICBzZXNzaW9uOiBTZXNzaW9uIHwgbnVsbAogIHVzdWFyaW86IFVzdWFyaW8gfCBudWxsCiAgcGFwZWw6IFBhcGVsIHwgbnVsbAogIGNhcnJlZ2FuZG86IGJvb2xlYW4KICBlcnJvOiBzdHJpbmcgfCBudWxsCiAgZW50cmFyOiAoZW1haWw6IHN0cmluZywgc2VuaGE6IHN0cmluZykgPT4gUHJvbWlzZTx7IGVycm86IHN0cmluZyB8IG51bGwgfT4KICBzYWlyOiAoKSA9PiBQcm9taXNlPHZvaWQ+Cn0KCmNvbnN0IEF1dGhDb250ZXh0ID0gY3JlYXRlQ29udGV4dDxBdXRoU3RhdGUgfCB1bmRlZmluZWQ+KHVuZGVmaW5lZCkKCmFzeW5jIGZ1bmN0aW9uIGJ1c2NhclVzdWFyaW8odXNlcklkOiBzdHJpbmcpOiBQcm9taXNlPFVzdWFyaW8gfCBudWxsPiB7CiAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgIC5mcm9tKCd1c3VhcmlvcycpCiAgICAuc2VsZWN0KCcqJykKICAgIC5lcSgnaWQnLCB1c2VySWQpCiAgICAuc2luZ2xlKCkKCiAgaWYgKGVycm9yKSB7CiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgbm8tY29uc29sZQogICAgY29uc29sZS5lcnJvcignTsOjbyBmb2kgcG9zc8OtdmVsIGNhcnJlZ2FyIG8gcGFwZWwgZG8gdXN1w6FyaW86JywgZXJyb3IubWVzc2FnZSkKICAgIHJldHVybiBudWxsCiAgfQoKICByZXR1cm4gZGF0YSBhcyBVc3VhcmlvCn0KCmV4cG9ydCBmdW5jdGlvbiBBdXRoUHJvdmlkZXIoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdE5vZGUgfSkgewogIGNvbnN0IFtzZXNzaW9uLCBzZXRTZXNzaW9uXSA9IHVzZVN0YXRlPFNlc3Npb24gfCBudWxsPihudWxsKQogIGNvbnN0IFt1c3VhcmlvLCBzZXRVc3VhcmlvXSA9IHVzZVN0YXRlPFVzdWFyaW8gfCBudWxsPihudWxsKQogIGNvbnN0IFtjYXJyZWdhbmRvLCBzZXRDYXJyZWdhbmRvXSA9IHVzZVN0YXRlKHRydWUpCiAgY29uc3QgW2Vycm8sIHNldEVycm9dID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCkKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGxldCBhdGl2byA9IHRydWUKCiAgICBzdXBhYmFzZS5hdXRoLmdldFNlc3Npb24oKS50aGVuKGFzeW5jICh7IGRhdGEgfSkgPT4gewogICAgICBpZiAoIWF0aXZvKSByZXR1cm4KICAgICAgc2V0U2Vzc2lvbihkYXRhLnNlc3Npb24pCiAgICAgIGlmIChkYXRhLnNlc3Npb24pIHsKICAgICAgICBjb25zdCB1ID0gYXdhaXQgYnVzY2FyVXN1YXJpbyhkYXRhLnNlc3Npb24udXNlci5pZCkKICAgICAgICBpZiAoYXRpdm8pIHNldFVzdWFyaW8odSkKICAgICAgfQogICAgICBpZiAoYXRpdm8pIHNldENhcnJlZ2FuZG8oZmFsc2UpCiAgICB9KQoKICAgIGNvbnN0IHsgZGF0YTogbGlzdGVuZXIgfSA9IHN1cGFiYXNlLmF1dGgub25BdXRoU3RhdGVDaGFuZ2UoCiAgICAgIGFzeW5jIChfZXZlbnQsIG5vdmFTZXNzYW8pID0+IHsKICAgICAgICBzZXRTZXNzaW9uKG5vdmFTZXNzYW8pCiAgICAgICAgaWYgKG5vdmFTZXNzYW8pIHsKICAgICAgICAgIGNvbnN0IHUgPSBhd2FpdCBidXNjYXJVc3VhcmlvKG5vdmFTZXNzYW8udXNlci5pZCkKICAgICAgICAgIHNldFVzdWFyaW8odSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgc2V0VXN1YXJpbyhudWxsKQogICAgICAgIH0KICAgICAgfQogICAgKQoKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIGF0aXZvID0gZmFsc2UKICAgICAgbGlzdGVuZXIuc3Vic2NyaXB0aW9uLnVuc3Vic2NyaWJlKCkKICAgIH0KICB9LCBbXSkKCiAgYXN5bmMgZnVuY3Rpb24gZW50cmFyKGVtYWlsOiBzdHJpbmcsIHNlbmhhOiBzdHJpbmcpIHsKICAgIHNldEVycm8obnVsbCkKICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmF1dGguc2lnbkluV2l0aFBhc3N3b3JkKHsKICAgICAgZW1haWwsCiAgICAgIHBhc3N3b3JkOiBzZW5oYSwKICAgIH0pCiAgICBpZiAoZXJyb3IpIHsKICAgICAgY29uc3QgbWVuc2FnZW0gPQogICAgICAgIGVycm9yLm1lc3NhZ2UgPT09ICdJbnZhbGlkIGxvZ2luIGNyZWRlbnRpYWxzJwogICAgICAgICAgPyAnRS1tYWlsIG91IHNlbmhhIGluY29ycmV0b3MuJwogICAgICAgICAgOiBlcnJvci5tZXNzYWdlCiAgICAgIHNldEVycm8obWVuc2FnZW0pCiAgICAgIHJldHVybiB7IGVycm86IG1lbnNhZ2VtIH0KICAgIH0KICAgIHJldHVybiB7IGVycm86IG51bGwgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gc2FpcigpIHsKICAgIGF3YWl0IHN1cGFiYXNlLmF1dGguc2lnbk91dCgpCiAgICBzZXRVc3VhcmlvKG51bGwpCiAgICBzZXRTZXNzaW9uKG51bGwpCiAgfQoKICBjb25zdCB2YWx1ZTogQXV0aFN0YXRlID0gewogICAgc2Vzc2lvbiwKICAgIHVzdWFyaW8sCiAgICBwYXBlbDogdXN1YXJpbz8ucGFwZWwgPz8gbnVsbCwKICAgIGNhcnJlZ2FuZG8sCiAgICBlcnJvLAogICAgZW50cmFyLAogICAgc2FpciwKICB9CgogIHJldHVybiA8QXV0aENvbnRleHQuUHJvdmlkZXIgdmFsdWU9e3ZhbHVlfT57Y2hpbGRyZW59PC9BdXRoQ29udGV4dC5Qcm92aWRlcj4KfQoKZXhwb3J0IGZ1bmN0aW9uIHVzZUF1dGgoKSB7CiAgY29uc3QgY3R4ID0gdXNlQ29udGV4dChBdXRoQ29udGV4dCkKICBpZiAoIWN0eCkgewogICAgdGhyb3cgbmV3IEVycm9yKCd1c2VBdXRoIHByZWNpc2Egc2VyIHVzYWRvIGRlbnRybyBkZSA8QXV0aFByb3ZpZGVyPicpCiAgfQogIHJldHVybiBjdHgKfQo="}
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+  type ReactNode,
+} from 'react'
+import type { Session } from '@supabase/supabase-js'
+import { supabase } from '../lib/supabase'
+import type { Papel, Usuario } from '../types/database'
+
+interface AuthState {
+  session: Session | null
+  usuario: Usuario | null
+  papel: Papel | null
+  carregando: boolean
+  erro: string | null
+  entrar: (email: string, senha: string) => Promise<{ erro: string | null }>
+  sair: () => Promise<void>
+}
+
+const AuthContext = createContext<AuthState | undefined>(undefined)
+
+async function buscarUsuario(userId: string): Promise<Usuario | null> {
+  const { data, error } = await supabase
+    .from('usuarios')
+    .select('*')
+    .eq('id', userId)
+    .single()
+
+  if (error) {
+    // eslint-disable-next-line no-console
+    console.error('Não foi possível carregar o papel do usuário:', error.message)
+    return null
+  }
+
+  return data as Usuario
+}
+
+export function AuthProvider({ children }: { children: ReactNode }) {
+  const [session, setSession] = useState<Session | null>(null)
+  const [usuario, setUsuario] = useState<Usuario | null>(null)
+  const [carregando, setCarregando] = useState(true)
+  const [erro, setErro] = useState<string | null>(null)
+
+  useEffect(() => {
+    let ativo = true
+
+    supabase.auth.getSession().then(async ({ data }) => {
+      if (!ativo) return
+      setSession(data.session)
+      if (data.session) {
+        const u = await buscarUsuario(data.session.user.id)
+        if (ativo) setUsuario(u)
+      }
+      if (ativo) setCarregando(false)
+    })
+
+    const { data: listener } = supabase.auth.onAuthStateChange(
+      async (_event, novaSessao) => {
+        setSession(novaSessao)
+        if (novaSessao) {
+          const u = await buscarUsuario(novaSessao.user.id)
+          setUsuario(u)
+        } else {
+          setUsuario(null)
+        }
+      }
+    )
+
+    return () => {
+      ativo = false
+      listener.subscription.unsubscribe()
+    }
+  }, [])
+
+  async function entrar(email: string, senha: string) {
+    setErro(null)
+    const { error } = await supabase.auth.signInWithPassword({
+      email,
+      password: senha,
+    })
+    if (error) {
+      const mensagem =
+        error.message === 'Invalid login credentials'
+          ? 'E-mail ou senha incorretos.'
+          : error.message
+      setErro(mensagem)
+      return { erro: mensagem }
+    }
+    return { erro: null }
+  }
+
+  async function sair() {
+    await supabase.auth.signOut()
+    setUsuario(null)
+    setSession(null)
+  }
+
+  const value: AuthState = {
+    session,
+    usuario,
+    papel: usuario?.papel ?? null,
+    carregando,
+    erro,
+    entrar,
+    sair,
+  }
+
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
+}
+
+export function useAuth() {
+  const ctx = useContext(AuthContext)
+  if (!ctx) {
+    throw new Error('useAuth precisa ser usado dentro de <AuthProvider>')
+  }
+  return ctx
+}
