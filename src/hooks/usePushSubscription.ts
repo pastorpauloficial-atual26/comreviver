@@ -1,1 +1,85 @@
-{"data":"aW1wb3J0IHsgdXNlRWZmZWN0IH0gZnJvbSAncmVhY3QnCmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAnLi4vbGliL3N1cGFiYXNlJwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAnLi4vY29udGV4dC9BdXRoQ29udGV4dCcKCmZ1bmN0aW9uIHVybEJhc2U2NFBhcmFVaW50OEFycmF5KGJhc2U2NDogc3RyaW5nKTogVWludDhBcnJheSB7CiAgY29uc3QgcGFkZGluZyA9ICc9Jy5yZXBlYXQoKDQgLSAoYmFzZTY0Lmxlbmd0aCAlIDQpKSAlIDQpCiAgY29uc3QgYmFzZTY0U2VndXJvID0gKGJhc2U2NCArIHBhZGRpbmcpLnJlcGxhY2UoLy0vZywgJysnKS5yZXBsYWNlKC9fL2csICcvJykKICBjb25zdCBicnV0byA9IHdpbmRvdy5hdG9iKGJhc2U2NFNlZ3VybykKICBjb25zdCBzYWlkYSA9IG5ldyBVaW50OEFycmF5KGJydXRvLmxlbmd0aCkKICBmb3IgKGxldCBpID0gMDsgaSA8IGJydXRvLmxlbmd0aDsgaSsrKSB7CiAgICBzYWlkYVtpXSA9IGJydXRvLmNoYXJDb2RlQXQoaSkKICB9CiAgcmV0dXJuIHNhaWRhCn0KCi8qKgogKiBJbnNjcmV2ZSBvIGRpc3Bvc2l0aXZvIGVtIG5vdGlmaWNhw6fDtWVzIHB1c2ggc2U6CiAqIC0gbyBuYXZlZ2Fkb3Igc3Vwb3J0YXIgU2VydmljZSBXb3JrZXIgKyBQdXNoIEFQSQogKiAtIG8gdXN1w6FyaW8gbG9nYWRvIHRpdmVyIHBhcGVsICJhZG1pbiIgKMOpIHF1ZW0gcmVjZWJlIGEgbm90aWZpY2HDp8OjbywgdmVyCiAqICAgZG9jcy8wMy1lc3BlY2lmaWNhY2FvLXB3YS5tZCBzZcOnw6NvIDUpCiAqIC0gbyB1c3XDoXJpbyBhaW5kYSBuw6NvIHRpdmVyIG5lZ2FkbyBwZXJtaXNzw6NvCiAqCiAqIEEgaW5zY3Jpw6fDo28gw6kgc2FsdmEgbmEgdGFiZWxhIGBwdXNoX3N1YnNjcmlwdGlvbnNgIChtaWdyYcOnw6NvCiAqIHN1cGFiYXNlL21pZ3JhdGlvbnMvMDAyX3B1c2hfc3Vic2NyaXB0aW9ucy5zcWwpLCBxdWUgYSBFZGdlIEZ1bmN0aW9uCiAqIGBzYWx2YXItcmVsYXRvcmlvYCBjb25zdWx0YSBwYXJhIGVudmlhciBvIHB1c2guCiAqLwpleHBvcnQgZnVuY3Rpb24gdXNlUHVzaFN1YnNjcmlwdGlvbigpIHsKICBjb25zdCB7IHVzdWFyaW8sIHBhcGVsIH0gPSB1c2VBdXRoKCkKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmIChwYXBlbCAhPT0gJ2FkbWluJyB8fCAhdXN1YXJpbykgcmV0dXJuCiAgICBpZiAoISgnc2VydmljZVdvcmtlcicgaW4gbmF2aWdhdG9yKSB8fCAhKCdQdXNoTWFuYWdlcicgaW4gd2luZG93KSkgcmV0dXJuCgogICAgY29uc3QgdmFwaWRQdWJsaWNLZXkgPSBpbXBvcnQubWV0YS5lbnYuVklURV9WQVBJRF9QVUJMSUNfS0VZCiAgICBpZiAoIXZhcGlkUHVibGljS2V5KSB7CiAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBuby1jb25zb2xlCiAgICAgIGNvbnNvbGUud2FybignVklURV9WQVBJRF9QVUJMSUNfS0VZIG7Do28gY29uZmlndXJhZGEg4oCUIG5vdGlmaWNhw6fDtWVzIHB1c2ggZGVzYXRpdmFkYXMuJykKICAgICAgcmV0dXJuCiAgICB9CgogICAgbGV0IGNhbmNlbGFkbyA9IGZhbHNlCgogICAgYXN5bmMgZnVuY3Rpb24gaW5zY3JldmVyKCkgewogICAgICBpZiAoTm90aWZpY2F0aW9uLnBlcm1pc3Npb24gPT09ICdkZW5pZWQnKSByZXR1cm4KCiAgICAgIGNvbnN0IHBlcm1pc3NhbyA9CiAgICAgICAgTm90aWZpY2F0aW9uLnBlcm1pc3Npb24gPT09ICdncmFudGVkJwogICAgICAgICAgPyAnZ3JhbnRlZCcKICAgICAgICAgIDogYXdhaXQgTm90aWZpY2F0aW9uLnJlcXVlc3RQZXJtaXNzaW9uKCkKICAgICAgaWYgKHBlcm1pc3NhbyAhPT0gJ2dyYW50ZWQnIHx8IGNhbmNlbGFkbykgcmV0dXJuCgogICAgICBjb25zdCByZWdpc3RyYXRpb24gPSBhd2FpdCBuYXZpZ2F0b3Iuc2VydmljZVdvcmtlci5yZWFkeQogICAgICBsZXQgaW5zY3JpY2FvID0gYXdhaXQgcmVnaXN0cmF0aW9uLnB1c2hNYW5hZ2VyLmdldFN1YnNjcmlwdGlvbigpCgogICAgICBpZiAoIWluc2NyaWNhbykgewogICAgICAgIGluc2NyaWNhbyA9IGF3YWl0IHJlZ2lzdHJhdGlvbi5wdXNoTWFuYWdlci5zdWJzY3JpYmUoewogICAgICAgICAgdXNlclZpc2libGVPbmx5OiB0cnVlLAogICAgICAgICAgYXBwbGljYXRpb25TZXJ2ZXJLZXk6IHVybEJhc2U2NFBhcmFVaW50OEFycmF5KHZhcGlkUHVibGljS2V5KSwKICAgICAgICB9KQogICAgICB9CgogICAgICBjb25zdCBjaGF2ZXMgPSBpbnNjcmljYW8udG9KU09OKCkua2V5cwogICAgICBpZiAoIWNoYXZlcz8ucDI1NmRoIHx8ICFjaGF2ZXM/LmF1dGgpIHJldHVybgoKICAgICAgYXdhaXQgc3VwYWJhc2UuZnJvbSgncHVzaF9zdWJzY3JpcHRpb25zJykudXBzZXJ0KAogICAgICAgIHsKICAgICAgICAgIHVzdWFyaW9faWQ6IHVzdWFyaW8uaWQsCiAgICAgICAgICBlbmRwb2ludDogaW5zY3JpY2FvLmVuZHBvaW50LAogICAgICAgICAgcDI1NmRoOiBjaGF2ZXMucDI1NmRoLAogICAgICAgICAgYXV0aDogY2hhdmVzLmF1dGgsCiAgICAgICAgfSwKICAgICAgICB7IG9uQ29uZmxpY3Q6ICdlbmRwb2ludCcgfQogICAgICApCiAgICB9CgogICAgaW5zY3JldmVyKCkuY2F0Y2goKGVycm8pID0+IHsKICAgICAgLy8gZXNsaW50LWRpc2FibGUtbmV4dC1saW5lIG5vLWNvbnNvbGUKICAgICAgY29uc29sZS5lcnJvcignRmFsaGEgYW8gaW5zY3JldmVyIGVtIG5vdGlmaWNhw6fDtWVzIHB1c2g6JywgZXJybykKICAgIH0pCgogICAgcmV0dXJuICgpID0+IHsKICAgICAgY2FuY2VsYWRvID0gdHJ1ZQogICAgfQogIH0sIFt1c3VhcmlvLCBwYXBlbF0pCn0K"}
+import { useEffect } from 'react'
+import { supabase } from '../lib/supabase'
+import { useAuth } from '../context/AuthContext'
+
+function urlBase64ParaUint8Array(base64: string): Uint8Array {
+  const padding = '='.repeat((4 - (base64.length % 4)) % 4)
+  const base64Seguro = (base64 + padding).replace(/-/g, '+').replace(/_/g, '/')
+  const bruto = window.atob(base64Seguro)
+  const saida = new Uint8Array(bruto.length)
+  for (let i = 0; i < bruto.length; i++) {
+    saida[i] = bruto.charCodeAt(i)
+  }
+  return saida
+}
+
+/**
+ * Inscreve o dispositivo em notificações push se:
+ * - o navegador suportar Service Worker + Push API
+ * - o usuário logado tiver papel "admin" (é quem recebe a notificação, ver
+ *   docs/03-especificacao-pwa.md seção 5)
+ * - o usuário ainda não tiver negado permissão
+ *
+ * A inscrição é salva na tabela `push_subscriptions` (migração
+ * supabase/migrations/002_push_subscriptions.sql), que a Edge Function
+ * `salvar-relatorio` consulta para enviar o push.
+ */
+export function usePushSubscription() {
+  const { usuario, papel } = useAuth()
+
+  useEffect(() => {
+    if (papel !== 'admin' || !usuario) return
+    if (!('serviceWorker' in navigator) || !('PushManager' in window)) return
+
+    const vapidPublicKey = import.meta.env.VITE_VAPID_PUBLIC_KEY
+    if (!vapidPublicKey) {
+      // eslint-disable-next-line no-console
+      console.warn('VITE_VAPID_PUBLIC_KEY não configurada — notificações push desativadas.')
+      return
+    }
+
+    let cancelado = false
+
+    async function inscrever() {
+      if (Notification.permission === 'denied') return
+
+      const permissao =
+        Notification.permission === 'granted'
+          ? 'granted'
+          : await Notification.requestPermission()
+      if (permissao !== 'granted' || cancelado) return
+
+      const registration = await navigator.serviceWorker.ready
+      let inscricao = await registration.pushManager.getSubscription()
+
+      if (!inscricao) {
+        inscricao = await registration.pushManager.subscribe({
+          userVisibleOnly: true,
+          applicationServerKey: urlBase64ParaUint8Array(vapidPublicKey),
+        })
+      }
+
+      const chaves = inscricao.toJSON().keys
+      if (!chaves?.p256dh || !chaves?.auth) return
+
+      await supabase.from('push_subscriptions').upsert(
+        {
+          usuario_id: usuario.id,
+          endpoint: inscricao.endpoint,
+          p256dh: chaves.p256dh,
+          auth: chaves.auth,
+        },
+        { onConflict: 'endpoint' }
+      )
+    }
+
+    inscrever().catch((erro) => {
+      // eslint-disable-next-line no-console
+      console.error('Falha ao inscrever em notificações push:', erro)
+    })
+
+    return () => {
+      cancelado = true
+    }
+  }, [usuario, papel])
+}
