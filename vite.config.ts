@@ -1,1 +1,53 @@
-{"data":"aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZScKaW1wb3J0IHJlYWN0IGZyb20gJ0B2aXRlanMvcGx1Z2luLXJlYWN0JwppbXBvcnQgeyBWaXRlUFdBIH0gZnJvbSAndml0ZS1wbHVnaW4tcHdhJwoKZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHsKICBwbHVnaW5zOiBbCiAgICByZWFjdCgpLAogICAgVml0ZVBXQSh7CiAgICAgIHJlZ2lzdGVyVHlwZTogJ2F1dG9VcGRhdGUnLAogICAgICBtYW5pZmVzdDogewogICAgICAgIG5hbWU6ICdSZWxhdMOzcmlvcyBSZXZpdmVyJywKICAgICAgICBzaG9ydF9uYW1lOiAnUmV2aXZlcicsCiAgICAgICAgZGVzY3JpcHRpb246ICdQV0EgZGUgY2FwdHVyYSBlIGV4dHJhw6fDo28gZGUgcmVsYXTDs3Jpb3MgZGUgY3VsdG8g4oCTIENvbXVuaWRhZGUgUmV2aXZlciBlbSBDcmlzdG8nLAogICAgICAgIHRoZW1lX2NvbG9yOiAnIzFhMWEyZScsCiAgICAgICAgYmFja2dyb3VuZF9jb2xvcjogJyMxYTFhMmUnLAogICAgICAgIGRpc3BsYXk6ICdzdGFuZGFsb25lJywKICAgICAgICBzdGFydF91cmw6ICcvJywKICAgICAgICBpY29uczogWwogICAgICAgICAgeyBzcmM6ICdwd2EtMTkyeDE5Mi5wbmcnLCBzaXplczogJzE5MngxOTInLCB0eXBlOiAnaW1hZ2UvcG5nJyB9LAogICAgICAgICAgeyBzcmM6ICdwd2EtNTEyeDUxMi5wbmcnLCBzaXplczogJzUxMng1MTInLCB0eXBlOiAnaW1hZ2UvcG5nJyB9CiAgICAgICAgXQogICAgICB9LAogICAgICB3b3JrYm94OiB7IGdsb2JQYXR0ZXJuczogWycqKi8qLntqcyxjc3MsaHRtbCxpY28scG5nLHN2Z30nXSB9CiAgICB9KQogIF0sCn0pCg=="}
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import { VitePWA } from 'vite-plugin-pwa'
+
+export default defineConfig({
+  plugins: [
+    react(),
+    VitePWA({
+      strategies: 'injectManifest',
+      srcDir: 'src',
+      filename: 'sw.ts',
+      injectRegister: 'auto',
+      registerType: 'autoUpdate',
+      devOptions: {
+        enabled: true,
+        type: 'module',
+      },
+      manifest: {
+        name: 'Relatórios de Culto — Reviver em Cristo',
+        short_name: 'Relatórios Reviver',
+        description:
+          'Captura, extração por IA e armazenamento dos relatórios diários de culto da Comunidade Reviver em Cristo.',
+        theme_color: '#1f2937',
+        background_color: '#ffffff',
+        display: 'standalone',
+        orientation: 'portrait',
+        start_url: '/',
+        scope: '/',
+        icons: [
+          {
+            src: '/icons/icon-192.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: '/icons/icon-512.png',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+          {
+            src: '/icons/icon-maskable-512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'maskable',
+          },
+        ],
+      },
+    }),
+  ],
+  server: {
+    port: 5173,
+  },
+})
