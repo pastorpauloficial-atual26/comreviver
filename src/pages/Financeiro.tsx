@@ -2,7 +2,13 @@ import { useCallback, useEffect, useRef, useState, type ChangeEvent, type FormEv
 import { Link } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import { useAuth } from '../context/AuthContext'
-import type { MovimentoFinanceiro, OrigemMovimento, ResumoFinanceiro, TipoMovimento } from '../types/database'
+import type {
+  MovimentoFinanceiro,
+  OrigemMovimento,
+  RelatorioCulto,
+  ResumoFinanceiro,
+  TipoMovimento,
+} from '../types/database'
 
 const STORAGE_BUCKET_FINANCEIRO = 'financeiro'
 
@@ -43,11 +49,37 @@ function formularioVazio(origem: OrigemMovimento): FormularioMovimento {
   }
 }
 
+type RelatorioResumido = Pick<
+  RelatorioCulto,
+  'id' | 'data_culto' | 'total_geral' | 'pregador' | 'dia_semana' | 'criado_em'
+>
+
+// Item unificado da lista de "Lançamentos" — combina extratos/despesas
+// (tabela movimentos_financeiros) e relatórios de culto (tabela
+// relatorios_cultos, que entram automaticamente como entrada na somatória).
+// A ordenação usa sempre a data real do lançamento (data do movimento ou
+// data de confecção do relatório/culto) — nunca a data em que o registro
+// foi incluído no sistema.
+interface ItemFeed {
+  chave: string
+  data: string
+  tipo: TipoMovimento
+  rotuloOrigem: string
+  valor: number
+  detalhe: string
+  subdetalhe: string
+  ehRelatorio: boolean
+  relatorioId?: string
+  movimento?: MovimentoFinanceiro
+}
+
 export default function Financeiro() {
   const { session, usuario, papel } = useAuth()
+  const inputCameraRef = useRef<HTMLInputElement>(null)
   const inputArquivoRef = useRef<HTMLInputElement>(null)
 
   const [movimentos, setMovimentos] = useState<MovimentoFinanceiro[]>([])
+  const [relatorios, setRelatorios] = useState<RelatorioResumido[]>([])
   const [resumo, setResumo] = useState<ResumoFinanceiro>({ total_entradas: 0, total_saidas: 0, saldo: 0 })
   const [carregando, setCarregando] = useState(true)
   const [erro, setErro] = useState<string | null>(null)
@@ -61,12 +93,21 @@ export default function Financeiro() {
     setCarregando(true)
     setErro(null)
 
-    const [{ data: lista, error: erroLista }, { data: totais, error: erroTotais }] = await Promise.all([
+    const [
+      { data: lista, error: erroLista },
+      { data: listaRelatorios, error: erroRelatorios },
+      { data: totais, error: erroTotais },
+    ] = await Promise.all([
       supabase
         .from('movimentos_financeiros')
         .select('*')
         .order('data_movimento', { ascending: false })
         .order('criado_em', { ascending: false })
+        .limit(200),
+      supabase
+        .from('relatorios_cultos')
+        .select('id, data_culto, total_geral, pregador, dia_semana, criado_em')
+        .order('data_culto', { ascending: false })
         .limit(200),
       supabase.rpc('resumo_financeiro').single(),
     ])
@@ -75,6 +116,12 @@ export default function Financeiro() {
       setErro('Não foi possível carregar os lançamentos: ' + erroLista.message)
     } else {
       setMovimentos((lista as MovimentoFinanceiro[]) ?? [])
+    }
+
+    if (erroRelatorios) {
+      setErro((atual) => atual ?? 'Não foi possível carregar os relatórios: ' + erroRelatorios.message)
+    } else {
+      setRelatorios((listaRelatorios as RelatorioResumido[]) ?? [])
     }
 
     if (erroTotais) {
@@ -90,11 +137,40 @@ export default function Financeiro() {
     carregar()
   }, [carregar])
 
+  // Une extratos, despesas e relatórios de culto numa única lista, sempre
+  // ordenada pela data real do lançamento (data de confecção/movimento) —
+  // não pela data de inclusão no sistema.
+  const feed: ItemFeed[] = [
+    ...movimentos.map((m): ItemFeed => ({
+      chave: `mov-${m.id}`,
+      data: m.data_movimento,
+      tipo: m.tipo,
+      rotuloOrigem: m.origem === 'extrato' ? 'Extrato' : 'Despesa',
+      valor: m.valor,
+      detalhe: m.categoria || m.descricao || 'Sem descrição',
+      subdetalhe: m.categoria && m.descricao ? m.descricao : '',
+      ehRelatorio: false,
+      movimento: m,
+    })),
+    ...relatorios.map((r): ItemFeed => ({
+      chave: `rel-${r.id}`,
+      data: r.data_culto ?? r.criado_em.slice(0, 10),
+      tipo: 'entrada',
+      rotuloOrigem: 'Relatório de Culto',
+      valor: r.total_geral ?? 0,
+      detalhe: r.pregador || 'Pregador não informado',
+      subdetalhe: r.dia_semana ?? '',
+      ehRelatorio: true,
+      relatorioId: r.id,
+    })),
+  ].sort((a, b) => (a.data < b.data ? 1 : a.data > b.data ? -1 : 0))
+
   function abrirFormulario(origem: OrigemMovimento) {
     setOrigemAberta(origem)
     setForm(formularioVazio(origem))
     setArquivo(null)
     setErro(null)
+    if (inputCameraRef.current) inputCameraRef.current.value = ''
     if (inputArquivoRef.current) inputArquivoRef.current.value = ''
   }
 
@@ -116,7 +192,7 @@ export default function Financeiro() {
     if (!origemAberta || !session || !usuario) return
 
     if (!arquivo) {
-      setErro('Selecione um arquivo para anexar.')
+      setErro('Selecione um arquivo ou tire uma foto para anexar.')
       return
     }
     const valorNumerico = Number(form.valor.replace(',', '.'))
@@ -301,14 +377,39 @@ export default function Financeiro() {
           </div>
 
           <div className="campo">
-            <label htmlFor="arquivo">Arquivo (PDF, JPG, PNG, TXT, DOC)</label>
-            <input
-              id="arquivo"
-              ref={inputArquivoRef}
-              type="file"
-              accept={TIPOS_ACEITOS}
-              onChange={aoEscolherArquivo}
-            />
+            <label>Comprovante (foto ou arquivo — PDF, JPG, PNG, TXT, DOC)</label>
+            <div className="linha">
+              <input
+                ref={inputCameraRef}
+                type="file"
+                accept="image/*"
+                capture="environment"
+                onChange={aoEscolherArquivo}
+                style={{ display: 'none' }}
+              />
+              <button
+                type="button"
+                className="btn btn-secundario"
+                onClick={() => inputCameraRef.current?.click()}
+              >
+                📷 Tirar Foto
+              </button>
+
+              <input
+                ref={inputArquivoRef}
+                type="file"
+                accept={TIPOS_ACEITOS}
+                onChange={aoEscolherArquivo}
+                style={{ display: 'none' }}
+              />
+              <button
+                type="button"
+                className="btn btn-secundario"
+                onClick={() => inputArquivoRef.current?.click()}
+              >
+                📁 Selecionar Arquivo
+              </button>
+            </div>
             {arquivo && <p style={{ fontSize: '0.8rem', color: 'var(--cor-texto-suave)', margin: '6px 0 0' }}>📄 {arquivo.name}</p>}
           </div>
 
@@ -329,40 +430,53 @@ export default function Financeiro() {
         <div className="tela-centralizada">
           <div className="spinner" />
         </div>
-      ) : movimentos.length === 0 ? (
+      ) : feed.length === 0 ? (
         <div className="estado-vazio">Nenhum lançamento ainda. Use os botões acima para anexar o primeiro.</div>
       ) : (
         <ul className="lista-relatorios">
-          {movimentos.map((m) => (
-            <li key={m.id} className="item-relatorio">
+          {feed.map((item) => (
+            <li key={item.chave} className="item-relatorio">
               <div className="linha-topo">
                 <span>
-                  <span className={`badge-tipo ${m.tipo === 'entrada' ? 'badge-entrada' : 'badge-saida'}`}>
-                    {m.tipo === 'entrada' ? 'Entrada' : 'Saída'}
+                  <span className={`badge-tipo ${item.tipo === 'entrada' ? 'badge-entrada' : 'badge-saida'}`}>
+                    {item.tipo === 'entrada' ? 'Entrada' : 'Saída'}
                   </span>{' '}
-                  <span className="badge-origem">{m.origem === 'extrato' ? 'Extrato' : 'Despesa'}</span>
+                  <span className="badge-origem">{item.rotuloOrigem}</span>
                 </span>
-                <strong className={m.tipo === 'entrada' ? 'valor-positivo' : 'valor-negativo'}>
-                  {formatarMoeda(m.valor)}
+                <strong className={item.tipo === 'entrada' ? 'valor-positivo' : 'valor-negativo'}>
+                  {formatarMoeda(item.valor)}
                 </strong>
               </div>
               <div className="linha-detalhe">
-                <span>{m.categoria || m.descricao || 'Sem descrição'}</span>
-                <span>{formatarData(m.data_movimento)}</span>
+                <span>{item.detalhe}</span>
+                <span>{formatarData(item.data)}</span>
               </div>
-              {m.descricao && m.categoria && (
+              {item.subdetalhe && (
                 <div className="linha-detalhe" style={{ fontSize: '0.8rem', color: 'var(--cor-texto-suave)' }}>
-                  <span>{m.descricao}</span>
+                  <span>{item.subdetalhe}</span>
                 </div>
               )}
               <div className="linha" style={{ marginTop: 8 }}>
-                <button className="btn-link" type="button" onClick={() => abrirArquivo(m)}>
-                  📎 Ver arquivo
-                </button>
-                {podeExcluir(m) && (
-                  <button className="btn-link" style={{ color: 'var(--cor-erro)' }} type="button" onClick={() => excluir(m)}>
-                    Excluir
-                  </button>
+                {item.ehRelatorio ? (
+                  <Link className="btn-link" to={`/relatorio/${item.relatorioId}`}>
+                    📋 Ver relatório
+                  </Link>
+                ) : (
+                  <>
+                    <button className="btn-link" type="button" onClick={() => abrirArquivo(item.movimento!)}>
+                      📎 Ver arquivo
+                    </button>
+                    {podeExcluir(item.movimento!) && (
+                      <button
+                        className="btn-link"
+                        style={{ color: 'var(--cor-erro)' }}
+                        type="button"
+                        onClick={() => excluir(item.movimento!)}
+                      >
+                        Excluir
+                      </button>
+                    )}
+                  </>
                 )}
               </div>
             </li>
